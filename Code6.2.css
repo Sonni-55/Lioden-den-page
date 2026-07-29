@@ -53,3 +53,12 @@ border-radius: 50%; }
 
     font-size:17px;
 }
+
+/* LINKS
+Color of links. This will affect all links on your page.
+Plan accordingly. */
+ 
+a:link,
+a:visited {
+color: #A3A4BF !important;
+background: none !important; }
