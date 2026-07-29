@@ -27,7 +27,7 @@ color: #59310E; } }
 You can make it a solid color by either using a HEX code, or by setting the final number in RGBA to 1.0 */
    
 .container.main {
-background: rgba(255, 226, 166, 0.5);
+background: #FFE2A680;
 border: none;
 box-shadow: none;
 border-radius: 5px; }
