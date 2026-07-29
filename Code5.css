@@ -12,13 +12,13 @@ BUT I recommend repeating patterns rather than full images. */
  
 @media screen and (min-width: 601px) { 
 body {
-background: url('https://postimg.cc/CBgvQRBs') center center fixed;
+background: url('https://i.postimg.cc/XJZTXFnm/lioden-wardrobe-(1)-(21).png') center center fixed;
 background-size: 100%;
 color: #ffe2a6; } }
 
 @media screen and (max-width: 600px){
 body {
-background: url('https://postimg.cc/CBgvQRBs') center center fixed;
+background: url('https://i.postimg.cc/XJZTXFnm/lioden-wardrobe-(1)-(21).png ') center center fixed;
 background-size: cover;
 color: #ffe2a6; } }
 
@@ -51,3 +51,4 @@ border-radius: 50%; }
     content:', TEXT';
 
     font-size:17px;
+}
