@@ -18,7 +18,7 @@ color: #ffe2a6; } }
 
 @media screen and (max-width: 600px){
 body {
-background: url('https://postimg.cc/CBgvQRBs');
+background: url('https://postimg.cc/CBgvQRBs') center center fixed;
 background-size: cover;
 color: #ffe2a6; } }
 
@@ -26,7 +26,7 @@ color: #ffe2a6; } }
 You can make it a solid color by either using a HEX code, or by setting the final number in RGBA to 1.0 */
    
 .container.main {
-background: #FFE2A650;
+background: #FFE2A6;
 border: none;
 box-shadow: none;
 border-radius: 5px; }
