@@ -4,7 +4,8 @@ h1 {
 color: #59310E !important;
 font-size: 54px;
 text-align: center !important;
-
+}
+ 
 /* BACKGROUNDS 
 The first one is for PC, the second is for mobile. You can also use an image in the second one
 via replacing #HEX with url('IMG LINK') center center fixed;
