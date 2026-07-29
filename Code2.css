@@ -1,0 +1,34 @@
+
+/* ___'s den Header */
+h1 {
+color: #59310E !important;
+font-size: 64px;
+text-align: center !important;
+
+/* BACKGROUNDS 
+The first one is for PC, the second is for mobile. You can also use an image in the second one
+via replacing #HEX with url('IMG LINK') center center fixed;
+BUT I recommend repeating patterns rather than full images. */
+ 
+@media screen and (min-width: 601px) { 
+body {
+background: url('https://postimg.cc/CBgvQRBs') center center fixed;
+background-size: 100%;
+color: #HEX; } }
+
+@media screen and (max-width: 600px){
+body {
+background: url('https://postimg.cc/CBgvQRBs');
+background-size: cover;
+color: #HEX; } }
+
+/* MAIN PANEL - The panel in front of your background image. Usually a solid color on Lioden.
+You can make it a solid color by either using a HEX code, or by setting the final number in RGBA to 1.0 */
+   
+.container.main {
+background: #FFE2A650;
+border: none;
+box-shadow: none;
+border-radius: 5px; }
+.col-md-9 {
+background: none; }
