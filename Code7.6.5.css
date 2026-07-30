@@ -9,9 +9,11 @@
 
 /* ___'s den Header */
 h1 {
+Background: linear-gradient(45deg, var(--Color4), var(--Color5))
 color: var(--Color1) !important;
 font-size: 45px;
 text-align: center !important;
+Background-clip: text
 }
 
 h3 {
