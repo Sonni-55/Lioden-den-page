@@ -206,7 +206,7 @@ color: var(--Color5) !important; }
 background: var(--Color4) !important; 
 border-radius: 10px !important; }
 
-/* Text box and button?*/
+/* Text box and button*/
 
 input, textarea, select, button.button,
 a.btn.btn-default.button {
@@ -250,16 +250,23 @@ color: var(--Color2) !important; }
 .s-chat-message a:hover {
 color: var(--Color5) !important; } 
 
+button#label_currentChannel, button.channelSwitcher a:link,
+button#label_currentChannel, button.channelSwitcher a:visited {
+ Color: var(--Color5)!important;
+ background: none !important; }
+button#label_currentChannel, button.channelSwitcher a:hover {
+ color: var(--Color2) !important; }
+
 /*CHAT */
  
 .s-chat-message:nth-child(even),
 .s-chat-message:nth-child(odd) {
-    background: var(--Color2)!important;
-    Color: var(--Color3)!important; 
+    background: var(--Color5)!important;
+    Color: var(--Color2)!important; 
     border: none !important; }
 .s-chat-message__pinned {
-    background: var(--Color3) !important;
-    color: var(--Color2) !important;
+    background: var(--Color5) !important;
+    color: var(--Color3) !important;
     border: none !important; }
 .s-chat-message_timestamp {
     color: var(--Color1) !important; }
