@@ -2,15 +2,12 @@
 /* ___'s den Header */
 h1 {
 color: #59310E !important;
-font-size: 54px;
+font-size: 50px;
 text-align: center !important;
 }
  
 /* BACKGROUNDS 
-The first one is for PC, the second is for mobile. You can also use an image in the second one
-via replacing #HEX with url('IMG LINK') center center fixed;
-BUT I recommend repeating patterns rather than full images. */
- 
+
 @media screen and (min-width: 601px) { 
 body {
 background: url('https://i.postimg.cc/XJZTXFnm/lioden-wardrobe-(1)-(21).png') center center fixed;
@@ -24,11 +21,10 @@ background-size: cover;
 color: #59310E; } }
 
 /* MAIN PANEL - The panel in front of your background image. Usually a solid color on Lioden.
-You can make it a solid color by either using a HEX code, or by setting the final number in RGBA to 1.0 */
-   
+
 .container.main {
-background: #FFE2A61A;
-transition: none !important;                  /* Poistaa pehmeän liu'un */
+background: #FFE2A640;
+transition: none !important;
 animation: none !important;
 border: none;
 box-shadow: none;
@@ -51,16 +47,50 @@ border-radius: 50%; }
 
 #about > tbody > tr:nth-child(1) > td > div::after {
 
-    content:', TEXT';
+    content:'url(https://i.postimg.cc/TwkvxfLc/Untitled244-20260723210218.png)';
 
     font-size:17px;
 }
 
 /* LINKS
-Color of links. This will affect all links on your page.
-Plan accordingly. */
+Color of links.
  
 a:link,
 a:visited {
 color: #A3A4BF !important;
 background: none !important; }
+
+a:hover {
+color: #bebfd2 !important; }
+
+/* TOPBAR, NAVBAR, & BREADCRUMB */
+ 
+.topbar {
+background: #D9B166 !important;
+color: #A3A4BF !important;
+border: none !important;
+border-radius: 0px !important;  }
+ 
+.navbar {
+background: #D9B166 !important;
+color: #A3A4BF !important;
+border: none !important;
+border-radius: 0px !important; }
+
+.navbar li a:hover {
+background: #HEX !important;
+color: #e4a574 !important; }
+
+/* This is mobile collapable navbar color changes.
+toggle is the button that opens the navbar
+*/
+
+.navbar-toggle {
+border: none !important;
+background: #A3A4BF !important;
+}
+
+.navbar-collapse {
+box-shadow: none !important;
+border-top: none !important;
+}
