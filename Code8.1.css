@@ -80,7 +80,6 @@ border-radius: 20%;
 overflow: hidden; }   
 table#player img {
 opacity: 1.0;
-border: 4px solid var(--Color4);
 border-radius: 10%; } 
 
 
@@ -137,7 +136,7 @@ color: var(--Color5); }
 
 .table {
     background: var(--Color2);
-    border: 1px solid var(--Color4);
+    border: 1px;
     color: var(--Color1);
 }
 
@@ -246,7 +245,7 @@ color: var(--Color5) !important; }
 .inner-table .right a:hover {
 color: var(--Color2) !important; }
 
-/*Comment Box by Hok-Z #41458 / #170947*/
+/*Comment Box base by Hok-Z #41458 / #170947*/
 #commentBox {
 background: var(--Color2);
 border: 4px solid var(--Color4) !important;
@@ -258,8 +257,9 @@ border-top-right-radius: 0px !important;
 }
 
 .comment {
-background: var(--Color2) !important;
-border-bottom: 2px solid var(--Color3);
+background: var(--Color5) !important;
+Border-radius: 10px
+border: 2px solid var(--Color3);
 font-weight: bold;
 color: var(--Color1);
 }
@@ -269,13 +269,13 @@ color: var(--Color1);
 .comment .text-muted {color: var(--Color1);}
 
 #makeComment {
-background: var(--Color3) !important;
+background: var(--Color5) !important;
 border: 2px solid var(--Color3);
 border-radius: 10px;
 }
 
 #comment {
-background: var(--Color2) !important;
+background: var(--Color5) !important;
 color: var(--Color1) !important;
 }
 
