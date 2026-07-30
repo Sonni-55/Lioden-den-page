@@ -60,10 +60,9 @@ body::before {
   background-repeat: no-repeat;
   background-attachment: fixed;
   Z-index: -1;
-  Background: transparent;
 }
 Body {
- Padding-bottom:2000px;
+ Padding-top:1000px;
 }
 
 
