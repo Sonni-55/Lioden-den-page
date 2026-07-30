@@ -16,7 +16,7 @@ Modifications made by sonni (#493609) */
 /* Header gradient css base from https://www.amitmerchant.com/animated-gradient-effect-in-css/ */
 
 h1 {
- font-size: 45px;
+ font-size: 30px;
  text-align: center !important;
     background: linear-gradient(
         to right,
@@ -73,14 +73,6 @@ border-radius: 5px; }
 .col-md-9 {
 background: none; } 
 
-/* Container behind edit your details */
-#accountoptionspanel .left,
-#changepasswordpanel .b,
-#editdetailspanel .b,
-#sparring,
-#allies .left,
-#editdetailspanel .right {
-  background: var(--Color4)!important;
 
 /* LION AND USER AVATAR OPACITY */
    
