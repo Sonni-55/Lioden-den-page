@@ -39,7 +39,8 @@ h1 {
   }
 }
 
-h1::after { content: '☆⋅⋆ ── '; color: var(--Color4); }
+h1::after { content: '
+ ☆⋅⋆ ── '; color: var(--Color4); }
 h1::before { content: '── ⋆⋅☆'; color: var(--Color4); }
 
 h3 {
@@ -135,7 +136,7 @@ border-radius: 10px !important;}
 .breadcrumb .active {
 color: var(--Color5); }
 
-.breadcrumb::after { content: '૮꒰˶ ⁠❛  ˕ ⁠❛˶꒱ა '; color: var(--Color5); }
+.breadcrumb::after { content: '  ૮꒰˶ ⁠❛  ˕ ⁠❛˶꒱ა '; color: var(--Color5); }
  
 /* table body*/
 
