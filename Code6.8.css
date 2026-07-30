@@ -52,28 +52,18 @@ border-radius: 50%; }
     font-size:17px;
 }
 
-/* LINKS */
-Color of links.
- 
-a:link,
-a:visited {
-color: #A3A4BF !important;
-background: none !important; }
-
-a:hover {
-color: #bebfd2 !important; }
 
 /* TOPBAR, NAVBAR, & BREADCRUMB */
  
 .topbar {
 background: #D9B166 !important;
-color: #A3A4BF !important;
+color: #59310E !important;
 border: none !important;
 border-radius: 0px !important;  }
  
 .navbar {
 background: #D9B166 !important;
-color: #A3A4BF !important;
+color: #59310E !important;
 border: none !important;
 border-radius: 0px !important; }
 
@@ -94,9 +84,41 @@ background: #A3A4BF !important;
 /* Bookmark Bar - aka breadcrumb, this is where your link path is shown */
 
 .breadcrumb {
-background: #D9B166 !important;
-color: #A3A4BF !important;
+background: #A3A4BF !important;
+color: #BEBFE2 !important;
 border: none !important;
 border-radius: 0px !important;} 
 .breadcrumb .active {
 color: #HEX; }
+
+/* FAPA, KING DYNASTY, ETC. */
+ 
+.feature {
+background: #A3A4BF !important;
+color: #BEBFE2 !important;
+border: 3px double #HEX !important;
+border-radius: 0px !important;  }
+
+div.left {
+background: #A3A4BF !important;
+color: #BEBFE2 !important;
+border: none !important;
+border-radius: 0px !important; }
+
+.xsmall {
+font-size: 14px !important; }
+
+/* Side panel */
+
+.panel {
+background: #D9B166 !important;
+color: #HEX !important;
+border: none !important;
+border-radius: 0px !important;
+box-shadow: none !important;  }
+
+/* Progress bars */
+
+.progress-bar {
+background: #A3A4BF !important; 
+border-radius: 10px !important; }
