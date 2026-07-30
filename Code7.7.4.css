@@ -15,7 +15,7 @@ h1 {
  font-size: 45px;
  text-align: center !important;
     background: linear-gradient(
-        to 45deg,
+        to right,
         Var(--Color4) 20%,
         Var(--Color5) 30%,
         Var(--Color5) 70%,
