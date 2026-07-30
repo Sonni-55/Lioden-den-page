@@ -91,6 +91,14 @@ border-radius: 10px !important;}
 .breadcrumb .active {
 color: #HEX; }
 
+/* table body? */
+
+.table {
+    background: #D9B166;
+    border: 1px;
+    color: #59310E;
+    box-shadow: 1px 1px 1px #59310E;
+
 /* FAPA, KING DYNASTY, ETC. */
  
 .feature {
@@ -118,6 +126,12 @@ border-radius: 10px !important;
 box-shadow: none !important;  }
 
 /* Progress bars */
+
+/* background container */
+.progress {
+    background: #fff;
+    border-radius: 10px;
+    border: 1px;
 
 .progress-bar {
 background: #A3A4BF !important; 
