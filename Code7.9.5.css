@@ -256,14 +256,14 @@ If you want the flippy floppy colors, where one is a little darker than the othe
 */
 
 div#commentBox {
-background: var(--Color2)!important;
+background: var(--Color5)!important;
 border-radius: 10px !important;
-color: var(--Color4) !important;}
+color: var(--Color1) !important;}
 	
 .comment {     
 background: #HEX !important;
 border-radius: 5px !important;
-color: var(--Color4) !important;
+color: var(--Color1) !important;
 .text-muted { 
 color: var(--Color1) !important; }
 
