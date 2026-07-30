@@ -244,36 +244,40 @@ color: var(--Color5) !important; }
 .inner-table .right a:hover {
 color: var(--Color2) !important; }
 
-.s-chat-message a:link,
-.s-chat-message a:visited {
- Color: var(--Color1)!important;
- background: none !important; }
-.s-chat-message a:hover {
-color: var(--Color5) !important; } 
+/*COMMENT BOX 
+This is a complicated one. please read carefully
+div#CommentBox is the color of the ENTIRE BOX, without comments in it. it is also the container
+.comment is the COMMENTS THEMSELVES
+If you want the flippy floppy colors, where one is a little darker than the other, DO NOT FILL IN ANYTHING FOR
+.comment ONLY FILL IN div#commentBox
 
-button#label_currentChannel, button.channelSwitcher a:link,
-button#label_currentChannel, button.channelSwitcher a:visited {
- Color: var(--Color5)!important;
- background: none !important; }
-button#label_currentChannel, button.channelSwitcher a:hover {
- color: var(--Color5) !important; }
+.input.bad is the icon to delete comments. you will be the only one to see this
+.input.bad a is the color of the x inside of it
+*/
 
-/*CHAT */
- 
-.s-chat-message:nth-child(even),
-.s-chat-message:nth-child(odd) {
-    background: var(--Color5)!important;
-    Color: var(--Color3)!important; 
-    border: none !important; }
-.s-chat-message__pinned {
-    background: var(--Color4) !important;
-    color: var(--Color5) !important;
-    border: none !important; }
-.s-chat-message_timestamp {
-    color: var(--Color1) !important; }
-   
-div#chatMessageContainer {
-    border: none !important; }
-button#label_currentChannel, button.channelSwitcher {
-    border: none !important;
-    background: var(--Color4) !important; }
+div#commentBox {
+background: var(--Color5)!important;
+border: none !important;
+border-radius: 0px !important;
+color: var(--Color4) !important;}
+	
+.comment {     
+background: #HEX !important;
+border: none !important;
+border-bottom: none !important;
+border-radius: 0px !important;
+color: #HEX !important;
+text-align: center !important;}
+.text-muted { 
+color: #HEX !important; }
+
+input.bad {
+background: var(--Color2)!important;
+color: var(--Color3) !important;}
+input.bad a {
+color: var(--Color1) !important; }
+
+table#player.table hr {
+display: none !important; }
+table#player.table div.xlarge { 
+margin-top: 10px !important; }
