@@ -65,7 +65,7 @@ background-color: transparent !important;
 background-image: linear-gradient(180deg, #FFE2A660, #FFE2A600);
 transition: none !important;
 animation: none !important;
-border: 2px datted var(--Color4)
+border: 2px
 box-shadow: none;
 border-radius: 5px; }
 .col-md-9 {
@@ -75,12 +75,12 @@ background: none; }
    
 div#lion_image {
 opacity: 1.0;
-border: 4px double var(--Color4);
+border: 8px double var(--Color4);
 border-radius: 20%;
 overflow: hidden; }   
 table#player img {
 opacity: 1.0;
-border: 2px solid var(--Color4);
+border: 4px solid var(--Color4);
 border-radius: 10%; } 
 
 
@@ -137,7 +137,7 @@ color: var(--Color5); }
 
 .table {
     background: var(--Color2);
-    border: 1px;
+    border: 1px solid var(--Color4);
     color: var(--Color1);
 }
 
@@ -172,7 +172,7 @@ color: var(--Color4) !important; }
 .feature {
 background: var(--Color4) !important;
 color: var(--Color5) !important;
-border: 3px double var(--Color5) !important;
+border: 3px var(--Color5) !important;
 border-radius: 0px !important;  }
 
 div.left {
@@ -249,8 +249,8 @@ color: var(--Color2) !important; }
 /*Comment Box by Hok-Z #41458 / #170947*/
 #commentBox {
 background: var(--Color2);
-border: 4px outset var(--Color4) !important;
-height: 300px !important;
+border: 4px solid var(--Color4) !important;
+height: 250px !important;
 margin-top: 40px;
 overflow: auto !important;
 border-top-left-radius: 0px !important;
@@ -259,7 +259,7 @@ border-top-right-radius: 0px !important;
 
 .comment {
 background: var(--Color2) !important;
-border-bottom: 1px (--Color3);
+border-bottom: 2px solid var(--Color3);
 font-weight: bold;
 color: var(--Color1);
 }
@@ -270,7 +270,7 @@ color: var(--Color1);
 
 #makeComment {
 background: var(--Color3) !important;
-border: 2px var(--Color3);
+border: 2px solid var(--Color3);
 border-radius: 10px;
 }
 
