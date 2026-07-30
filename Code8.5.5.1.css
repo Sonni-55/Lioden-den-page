@@ -295,19 +295,3 @@ input#postComment {
 background: var(--Color4) !important;
 color: var(--Color1);
 }
-
-/* Comment Box Header also by Hok-Z#41458 / #170947 */
-content: "All comments are welcome!";
-background: var(--Color5);
-color: var(--Color1);
-display: block;
-width: 50px;
-height: 40px;
-Left:-2px;
-Text-align: center;
-Top:-40px;
-border: 2px solid var(--Color4); 
-Border-radius: 20px;
-border-bottom-left-radius: 0px !important;
-border-bottom-right-radius: 0px !important; 
-}
