@@ -223,34 +223,6 @@ border-radius: 0px !important;
 color: var(--Color1) !important;
 text-shadow: none !important; }
 
-/* panels */
-
-.panel {
-    background-color: var(--Color2) !important;
-    border: none !important;
-    color: var(--Color1) !important;
-}
-
-.panel-heading, .panel-footer {
-    background-color: var(--Color3) !important;
-    border: none !important;
-    color: var(--Color1) !important;
-}
-
-.panel-body {
-    background-color: var(--Color2) !important;
-    color: var(--Color1) !important;
-}
-
-/* alerts */
-.alert, .alert-info, .alert-warning {
-    background-color: var(--Color2) !important;
-    border: 1px solid var(--Color4) !important;
-    color: var(--Color1) !important;
-}
-
-
-}
 
 /* CAVE NAMES - changes the color of of where cave names are displayed */
  
