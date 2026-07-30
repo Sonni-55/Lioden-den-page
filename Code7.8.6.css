@@ -20,10 +20,10 @@ h1 {
  text-align: center !important;
     background: linear-gradient(
         to right,
-        Var(--Color1) 20%,
+        Var(--Color1) 80%,
         Var(--Color4) 30%,
-        Var(--Color1) 20%,
-        Var(--Color1) 80%
+        Var(--Color1) 80%,
+  
     );
     -webkit-background-clip: text;
     background-clip: text;
@@ -245,27 +245,27 @@ color: var(--Color2) !important; }
 
 .s-chat-message a:link,
 .s-chat-message a:visited {
- Color: var(--Color3)!important;
+ Color: var(--Color1)!important;
  background: none !important; }
 .s-chat-message a:hover {
-color: var(--Color2) !important; } 
+color: var(--Color5) !important; } 
 
 /*CHAT */
  
 .s-chat-message:nth-child(even),
 .s-chat-message:nth-child(odd) {
-    background: var(--Color4)!important;
-    Color: var(--Color5)!important; 
+    background: var(--Color2)!important;
+    Color: var(--Color3)!important; 
     border: none !important; }
 .s-chat-message__pinned {
-    background: var(--Color2) !important;
-    color: var(--Color3) !important;
+    background: var(--Color3) !important;
+    color: var(--Color2) !important;
     border: none !important; }
 .s-chat-message_timestamp {
-    color: var(--Color3) !important; }
+    color: var(--Color1) !important; }
    
 div#chatMessageContainer {
     border: none !important; }
 button#label_currentChannel, button.channelSwitcher {
     border: none !important;
-    background: var(--Color3) !important; }
+    background: var(--Color4) !important; }
