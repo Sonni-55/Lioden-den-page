@@ -20,9 +20,10 @@ h1 {
  text-align: center !important;
     background: linear-gradient(
         to right,
-        Var(--Color1) 80%,
+        Var(--Color1) 50%,
         Var(--Color4) 30%,
-        Var(--Color1) 80%
+        Var(--Color1) 50%,
+        Var(--Color1) 70%
   
     );
     -webkit-background-clip: text;
@@ -249,6 +250,13 @@ color: var(--Color2) !important; }
  background: none !important; }
 .s-chat-message a:hover {
 color: var(--Color5) !important; } 
+
+button#label_currentChannel, button.channelSwitcher a:link,
+button#label_currentChannel, button.channelSwitcher a:visited {
+ Color: var(--Color5)!important;
+ background: none !important; }
+button#label_currentChannel, button.channelSwitcher a:hover {
+ color: var(--Color5) !important; }
 
 /*CHAT */
  
