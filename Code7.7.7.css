@@ -60,7 +60,9 @@ color: var(--Color1); } }
 /* MAIN PANEL - The panel in front of your background image. Usually a solid color on Lioden.*/
 
 .container.main {
-background: linear-gradient(180deg, #FFE2A640, #FFE2A600)
+#grad {
+  background-image: linear-gradient(to bottom, #FFE2A640, #FFE2A600);
+}
 transition: none !important;
 animation: none !important;
 border: none;
@@ -87,6 +89,14 @@ border-radius: 50%; }
     font-size:17px;
 }
 
+#lion_image>div::after {
+content : url('https://i.postimg.cc/TwkvxfLc/Untitled244-20260723210218.png')!important;
+display:block;
+position: absolute!important;
+left: -440px!important;
+top: -22px!important;
+transform: scaleX(-1)!important;
+}
 
 /* TOPBAR, NAVBAR, & BREADCRUMB */
  
@@ -101,7 +111,7 @@ background: var(--Color2) !important;
 color: var(--Color1) !important;
 border: none !important;
 border-radius: 0px !important;
-font-size: 30px;
+font-size: 40px;
 text-align: center !important;
 }
 
