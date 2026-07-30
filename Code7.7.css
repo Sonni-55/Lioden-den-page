@@ -16,9 +16,9 @@ h1 {
  text-align: center !important;
     background: linear-gradient(
         to right,
-        Var(--Color4) 20%,
+        Var(--Color2) 20%,
         Var(--Color4) 30%,
-        Var(--Color5) 70%,
+        Var(--Color3) 70%,
         Var(--Color5) 80%
     );
     -webkit-background-clip: text;
@@ -26,7 +26,7 @@ h1 {
     -webkit-text-fill-color: transparent;
     text-fill-color: transparent;
     background-size: 500% auto;
-    animation: textShine 3s ease-in-out infinite alternate;
+    animation: textShine 5s ease-in-out infinite alternate;
 }
 
 @keyframes textShine {
