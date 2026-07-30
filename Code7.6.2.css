@@ -78,15 +78,13 @@ background: var(--Color2) !important;
 color: var(--Color1) !important;
 border: none !important;
 border-radius: 0px !important;
-font-size: 20px;
+font-size: 30px;
 text-align: center !important;
 }
 
 .navbar li a:hover {
 background: var(--Color2) !important;
 color: var(--Color1) !important;
-font-size: 20px;
-text-align: center !important;
 }
 
 /* This is mobile collapable navbar color changes.
@@ -107,13 +105,13 @@ color: var(--Color5) !important;
 border: none !important;
 border-radius: 10px !important;} 
 .breadcrumb .active {
-color: #HEX; }
+color: var(--Color5); }
 
 /* table body? */
 
 .table {
     background: var(--Color2);
-    border: 3px var(--Color4);
+    border: 1px;
     color: var(--Color1);
 }
 
@@ -134,7 +132,9 @@ border-radius: 0px !important; }
 
 .inner-table .left {
 background: var(--Color4) !important;
-border-radius: 0px !important;  }
+border-radius: 0px !important;
+color: var(--Color5) !important;
+}
 
 .inner-table .right {
 background: var(--Color5) !important;
