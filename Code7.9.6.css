@@ -244,36 +244,44 @@ color: var(--Color5) !important; }
 .inner-table .right a:hover {
 color: var(--Color2) !important; }
 
-/*COMMENT BOX 
-This is a complicated one. please read carefully
-div#CommentBox is the color of the ENTIRE BOX, without comments in it. it is also the container
-.comment is the COMMENTS THEMSELVES
-If you want the flippy floppy colors, where one is a little darker than the other, DO NOT FILL IN ANYTHING FOR
-.comment ONLY FILL IN div#commentBox
+/*Comment Box by Hok-Z #41458 / #170947*/
+#commentBox {
+background: var(--Color5);
+border: 10px solid var(--Color4) !important;
+height: 280px !important;
+margin-top: 40px;
+overflow: auto !important;
+border-top-left-radius: 0px !important;
+border-top-right-radius: 0px !important;
+}
 
-.input.bad is the icon to delete comments. you will be the only one to see this
-.input.bad a is the color of the x inside of it
-*/
+.comment {
+background: var(--Color2) !important;
+border-bottom: 1px solid cyan;
+font-weight: bold;
+color: var(--Color1);
+}
 
-div#commentBox {
-background: var(--Color5)!important;
-border-radius: 10px !important;
-color: var(--Color1) !important;}
-	
-.comment {     
-background: #HEX !important;
-border-radius: 5px !important;
+.comment a {color: var(--Color4);}
+
+.comment .text-muted {color: var(--Color5);}
+
+#makeComment {
+background: var(--Color5) !important;
+border: 2px var(--Color4);
+border-radius: 10px;
+}
+
+#comment {
+background: var(--Color5) !important;
 color: var(--Color1) !important;
-.text-muted { 
-color: var(--Color1) !important; }
+}
 
-input.bad {
-background: var(--Color4)!important;
-color: var(--Color5) !important;}
-input.bad a {
-color: var(--Color5) !important; }
+input[type="button"].bad {
+background: var(--Color3)!important;
+}
 
-table#player.table hr {
-display: none !important; }
-table#player.table div.xlarge { 
-margin-top: 10px !important; }
+input#postComment {
+background: var(--Color5) !important;
+color: var(--Color1);
+}
