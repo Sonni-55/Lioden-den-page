@@ -30,7 +30,7 @@ h1 {
     -webkit-text-fill-color: transparent;
     text-fill-color: transparent;
     background-size: 500% auto;
-    animation: move 2s linear infinite;
+    animation: move 10s linear infinite;
 }
 @keyframes move {
   to {
@@ -60,7 +60,7 @@ color: var(--Color1); } }
 /* MAIN PANEL - The panel in front of your background image. Usually a solid color on Lioden.*/
 
 .container.main {
-background: linear-gradient(#FFE2A640, #FFE2A600)
+background: linear-gradient(180deg, #FFE2A640, #FFE2A600)
 transition: none !important;
 animation: none !important;
 border: none;
