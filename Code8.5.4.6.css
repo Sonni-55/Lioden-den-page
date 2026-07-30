@@ -48,33 +48,23 @@ color: var(--Color1) !important;
 font-size: 18px;}
  
 /* BACKGROUND that doesn't move on mobile*/
-@media screen and (max-width: 600px) {
- 
-  html, body {
-    background: transparent !important;
-    min-height: 100vh;
-  }
-  html::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    Bottom:0;
-    Right:0;
-    width: 100%;
-    height: 100%;
-    z-index: -999;
-    
-    background-image: url('https://i.postimg.cc/XJZTXFnm/lioden-wardrobe-(1)-(21).png') !important;
-    background-position: center center !important;
-    background-repeat: no-repeat !important;
-    background-size: cover !important;
-  }
-  main {
-    background: transparent !important;
-  }
-} 
-
+/* Code from this site https://jsfiddle.net/saeokn81/ */
+body::before {
+  Content: '';
+  Position:fixed;
+  Top:0;
+  Left:0;
+  Width:100vw;
+  Height:100vh;
+  background-image: url("https://i.postimg.cc/XJZTXFnm/lioden-wardrobe-(1)-(21).png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  Z-index: -1;
+  Background: transparent;
+}
+Body {
+ Padding-bottom:2000px;
+}
 
 
 /* MAIN PANEL - The panel in front of your background image. Usually a solid color on Lioden.*/
