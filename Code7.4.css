@@ -31,7 +31,7 @@ color: var(--Color1); } }
 /* MAIN PANEL - The panel in front of your background image. Usually a solid color on Lioden.*/
 
 .container.main {
-background: var(--Color2); /*MAKE TRANSPARENT!*/
+background: #FFE2A640;
 transition: none !important;
 animation: none !important;
 border: none;
