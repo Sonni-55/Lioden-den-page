@@ -81,7 +81,10 @@ border-radius: 0px !important; }
 
 .navbar li a:hover {
 background: var(--Color2) !important;
-color: var(--Color1) !important; }
+color: var(--Color1) !important;
+font-size: 10px;
+text-align: center !important;
+}
 
 /* This is mobile collapable navbar color changes.
 toggle is the button that opens the navbar
@@ -107,9 +110,8 @@ color: #HEX; }
 
 .table {
     background: var(--Color2);
-    border: 1px;
+    border: 3px var(--Color4);
     color: var(--Color1);
-    box-shadow: 3px 3px 3px 3px var(--Color4);
 }
 
 .top, .bottom, th {
@@ -196,3 +198,13 @@ background: var(--Color4) !important;
 color: var(--Color5) !important;
 border: none !important;
 border-radius: 0px !important; }
+
+/* LINKS */
+ 
+a:link,
+a:visited {
+color: var(--Color1)!important;
+background: none !important; }
+   
+a:hover {
+color: var(--Color5) !important; }
