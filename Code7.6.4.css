@@ -9,7 +9,7 @@
 
 /* ___'s den Header */
 h1 {
-color: linear-gradient(45deg, var(Color5), var(Color4)) !important;
+color: var(--Color1) !important;
 font-size: 45px;
 text-align: center !important;
 }
@@ -180,7 +180,7 @@ box-shadow: none !important;  }
 color: var(--Color5) !important; }
 
 .progress-bar {
-background: linear-gradient(90deg, var(Color4), var(Color5)) !important; 
+background: linear-gradient(90deg, var(--Color4), var(--Color5)) !important; 
 border-radius: 10px !important; }
 
 /* Text box and button? */
