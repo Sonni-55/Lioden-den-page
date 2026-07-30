@@ -9,7 +9,7 @@
 
 /* ___'s den Header */
 h1 {
-color: var(--Color1) !important;
+color: linear-gradient(45deg, var(Color5), var(Color4)) !important;
 font-size: 45px;
 text-align: center !important;
 }
@@ -146,7 +146,7 @@ color: var(--Color4) !important; }
 .feature {
 background: var(--Color4) !important;
 color: var(--Color5) !important;
-border: 3px double #HEX !important;
+border: 3px double var(--Color5) !important;
 border-radius: 0px !important;  }
 
 div.left {
@@ -180,7 +180,7 @@ box-shadow: none !important;  }
 color: var(--Color5) !important; }
 
 .progress-bar {
-background: var(--Color4) !important; 
+background: linear-gradient(90deg, var(Color4), var(Color5)) !important; 
 border-radius: 10px !important; }
 
 /* Text box and button? */
