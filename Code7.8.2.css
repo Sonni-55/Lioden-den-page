@@ -20,10 +20,10 @@ h1 {
  text-align: center !important;
     background: linear-gradient(
         to right,
-        Var(--Color4) 20%,
-        Var(--Color5) 30%,
-        Var(--Color4) 70%,
-        Var(--Color4) 80%
+        Var(--Color1) 20%,
+        Var(--Color4) 30%,
+        Var(--Color1) 70%,
+        Var(--Color1) 80%
     );
     -webkit-background-clip: text;
     background-clip: text;
@@ -88,16 +88,6 @@ border-radius: 50%; }
     font-size:17px;
 }
 
-#lion_image >div::after {
-content: url('https://i.postimg.cc/TwkvxfLc/Untitled244-20260723210218.png')!important;
-display: block;
-background-image: url('https://i.postimg.cc/XJZTXFnm/lioden-wardrobe-(1)-(21).png')!important;
-position: absolute!important;
-left: -440px!important;
-top: -22px!important;
-transform: scaleX(-1)!important;
-}
-
 /* TOPBAR, NAVBAR, & BREADCRUMB */
  
 .topbar {
@@ -140,7 +130,7 @@ border-radius: 10px !important;}
 .breadcrumb .active {
 color: var(--Color5); }
 
-/* table body? */
+/* table body*/
 
 .table {
     background: var(--Color2);
