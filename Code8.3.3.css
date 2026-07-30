@@ -257,7 +257,7 @@ border-top-right-radius: 0px !important;
 }
 
 .comment {
-background: var(--Color3) !important;
+background: var(--Color5) !important;
 border-bottom: 2px solid var(--Color3);
 font-weight: bold;
 color: var(--Color1);
@@ -268,7 +268,7 @@ color: var(--Color1);
 .comment .text-muted {color: var(--Color1);}
 
 #makeComment {
-background: var(--Color5) !important;
+background: var(--Color3) !important;
 border: 2px solid var(--Color3);
 border-radius: 10px;
 }
