@@ -49,13 +49,13 @@ font-size: 18px;}
 /* BACKGROUNDS */
 
 @media screen and (min-width: 601px) { 
-body {
+body::before {
 background: url('https://i.postimg.cc/XJZTXFnm/lioden-wardrobe-(1)-(21).png') center center fixed;
 background-size: cover;
 color: var(--Color1); } }
 
 @media screen and (max-width: 600px){
-body {
+body::before {
 background: url('https://i.postimg.cc/XJZTXFnm/lioden-wardrobe-(1)-(21).png') center center fixed;
 background-size: cover;
 color: var(--Color1); } }
@@ -298,11 +298,14 @@ color: var(--Color1);
 #commentBox::before {
 content: "All comments are welcome!";
 background: var(--Color5);
-color: var(--Color4);
+color: var(--Color1);
 display: block;
-width: 96.6%;
+width: 90%;
 height: 40px;
-position: absolute;
+position: center;
 margin-top: -42px;
 padding-top: 6px;
+Border-radius: 20px
+border-bottom-left-radius: 0px !important;
+border-bottom-right-radius: 0px !important; 
 }
