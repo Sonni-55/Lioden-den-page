@@ -78,7 +78,7 @@ border: none !important;
 border-radius: 0px !important; }
 
 .navbar li a:hover {
-background: #HEX !important;
+background: #D9B166 !important;
 color: #e4a574 !important; }
 
 /* This is mobile collapable navbar color changes.
@@ -90,7 +90,13 @@ border: none !important;
 background: #A3A4BF !important;
 }
 
-.navbar-collapse {
-box-shadow: none !important;
-border-top: none !important;
-}
+
+/* Bookmark Bar - aka breadcrumb, this is where your link path is shown */
+
+.breadcrumb {
+background: #D9B166 !important;
+color: #A3A4BF !important;
+border: none !important;
+border-radius: 0px !important;} 
+.breadcrumb .active {
+color: #HEX; }
