@@ -105,9 +105,33 @@ color: #HEX; }
     background: var(--Color2);
     border: 1px;
     color: var(--Color1);
-    box-shadow: 1px 1px 1px var(--Color4);
+    box-shadow: 3px 3px 3px 3px var(--Color4);
 }
+
+.top, .bottom, th {
+background: var(--Color3) !important;
+color: var(--Color1) !important;
+border: none !important;
+border-radius: 0px !important; }
+
+/* table.left will be used by the sections on the left of the edit your details panel once open
+.inner-table .left is used by the table that displays the names of the sections of
+info about your den, like your territory, your king's stats, etc. 
+.inner-table .right is used by the boxes next to the king's info, that displays the actual info. */
  
+.table .left {
+background: var(--Color5);
+border-radius: 0px !important; }
+
+.inner-table .left {
+background: var(--Color4) !important;
+border-radius: 0px !important;  }
+
+.inner-table .right {
+background: var(--Color5) !important;
+border-radius: 0px !important; 
+color: var(--Color4) !important; } 
+
 /* FAPA, KING DYNASTY, ETC. */
  
 .feature {
@@ -138,10 +162,13 @@ box-shadow: none !important;  }
 
 /* background container */
 .progress {
-    background: var(--Color5);
+    background: var(--Color3);
+    color: var(--Color1);
     border-radius: 10px;
     border: 1px;
 }
+.progress div {
+color: var(--Color5) !important; }
 
 .progress-bar {
 background: var(--Color4) !important; 
@@ -156,3 +183,12 @@ border: none !important;
 border-radius: 0px !important;
 color: var(--Color1) !important;
 text-shadow: none !important; }
+
+/* CAVE NAMES - changes the color of of where cave names are displayed */
+ 
+.cave-grid,
+.mound-grid {
+background: var(--Color4) !important;
+color: var(--Color5) !important;
+border: none !important;
+border-radius: 0px !important; }
