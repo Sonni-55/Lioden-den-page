@@ -77,12 +77,15 @@ border-radius: 0px !important;  }
 background: var(--Color2) !important;
 color: var(--Color1) !important;
 border: none !important;
-border-radius: 0px !important; }
+border-radius: 0px !important;
+font-size: 20px;
+text-align: center !important;
+}
 
 .navbar li a:hover {
 background: var(--Color2) !important;
 color: var(--Color1) !important;
-font-size: 10px;
+font-size: 20px;
 text-align: center !important;
 }
 
@@ -126,7 +129,7 @@ info about your den, like your territory, your king's stats, etc.
 .inner-table .right is used by the boxes next to the king's info, that displays the actual info. */
  
 .table .left {
-background: var(--Color5);
+background: var(--Color4);
 border-radius: 0px !important; }
 
 .inner-table .left {
@@ -205,6 +208,14 @@ a:link,
 a:visited {
 color: var(--Color1)!important;
 background: none !important; }
+
+.inner-table .right a:link,
+.inner-table .right a:visited {
+ Color: var(--Color4)!important;
+ background: none !important; }
    
 a:hover {
 color: var(--Color5) !important; }
+
+.inner-table .right a:hover {
+color: var(--Color2) !important; }
