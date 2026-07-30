@@ -47,7 +47,7 @@ border-radius: 50%; }
 
 #about > tbody > tr:nth-child(1) > td > div::after {
 
-    content:'url(https://i.postimg.cc/TwkvxfLc/Untitled244-20260723210218.png)';
+    content:' Text';
 
     font-size:17px;
 }
