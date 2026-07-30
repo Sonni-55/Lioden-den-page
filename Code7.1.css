@@ -98,7 +98,8 @@ color: #HEX; }
     border: 1px;
     color: #59310E;
     box-shadow: 1px 1px 1px #59310E;
-
+}
+ 
 /* FAPA, KING DYNASTY, ETC. */
  
 .feature {
@@ -132,6 +133,7 @@ box-shadow: none !important;  }
     background: #fff;
     border-radius: 10px;
     border: 1px;
+}
 
 .progress-bar {
 background: #A3A4BF !important; 
