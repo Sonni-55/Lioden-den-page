@@ -10,9 +10,13 @@
 /* ___'s den Header */
 h1 {
 color: var(--Color1) !important;
-font-size: 50px;
+font-size: 45px;
 text-align: center !important;
 }
+
+h3 {
+color: var(--Color1) !important;
+font-size: 18px;}
  
 /* BACKGROUNDS */
 
