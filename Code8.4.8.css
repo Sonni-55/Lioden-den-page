@@ -56,7 +56,8 @@ body::before {
  Left:0;
  background: url('https://i.postimg.cc/XJZTXFnm/lioden-wardrobe-(1)-(21).png') center center fixed;
  background-size: cover;
- color: var(--Color1); } }
+ color: var(--Color1); }
+ background: none; }
 
 /* MAIN PANEL - The panel in front of your background image. Usually a solid color on Lioden.*/
 
@@ -259,6 +260,7 @@ margin-top: 40px;
 overflow: auto !important;
 border-top-left-radius: 0px !important;
 border-top-right-radius: 0px !important;
+position: relative;
 }
 
 .comment {
@@ -298,12 +300,16 @@ content: "All comments are welcome!";
 background: var(--Color5);
 color: var(--Color1);
 display: block;
-width: 96.6%;
+width: calc(100%+4px);
 height: 40px;
+Left:-2px;
+box-sizing: border-box;
 position: absolute;
-margin-top: -42px;
+Text-align: center;
+Height:40px;
+Top:-40px;
 padding-top: 6px;
-border: 2px; 
+border: 2px solid var(--Color4); 
 Border-radius: 20px;
 border-bottom-left-radius: 0px !important;
 border-bottom-right-radius: 0px !important; 
