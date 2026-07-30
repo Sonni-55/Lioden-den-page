@@ -16,9 +16,9 @@ h1 {
  text-align: center !important;
     background: linear-gradient(
         to right,
-        Var(--Color2) 20%,
-        Var(--Color5) 30%,
-        Var(--Color3) 70%,
+        Var(--Color2) 70%,
+        Var(--Color5) 20%,
+        Var(--Color3) 30%,
         Var(--Color4) 80%
     );
     -webkit-background-clip: text;
