@@ -22,7 +22,7 @@ h1 {
         to right,
         Var(--Color1) 20%,
         Var(--Color4) 30%,
-        Var(--Color1) 70%,
+        Var(--Color1) 20%,
         Var(--Color1) 80%
     );
     -webkit-background-clip: text;
@@ -61,7 +61,7 @@ color: var(--Color1); } }
 
 .container.main {
 background-color: transparent !important;
-background-image: linear-gradient(180deg, #FFE2A640, #FFE2A600);
+background-image: linear-gradient(180deg, #FFE2A660, #FFE2A600);
 transition: none !important;
 animation: none !important;
 border: none;
@@ -70,15 +70,24 @@ border-radius: 5px; }
 .col-md-9 {
 background: none; } 
 
+/*ACCOUNT OPTIONS */
+ 
+.item-header {
+    background: #416CA6 !important;
+    color: #C2D7F2 !important; } 
+.item {
+    background: #C2D7F2 !important;
+    border: none !important; }
+
 /* LION AND USER AVATAR OPACITY */
    
 div#lion_image {
 opacity: 1.0;
-border-radius: 50%;
+border-radius: 20%;
 overflow: hidden; }   
 table#player img {
 opacity: 1.0;
-border-radius: 50%; } 
+border-radius: 10%; } 
 
 
 /* CUSTOM KING TITLE - AFTER */
@@ -206,7 +215,7 @@ color: var(--Color5) !important; }
 background: var(--Color4) !important; 
 border-radius: 10px !important; }
 
-/* Text box and button? */
+/* Text box and button?*/
 
 input, textarea, select, button.button,
 a.btn.btn-default.button {
@@ -242,3 +251,22 @@ color: var(--Color5) !important; }
 
 .inner-table .right a:hover {
 color: var(--Color2) !important; }
+
+/*CHAT */
+ 
+.s-chat-message:nth-child(even),
+.s-chat-message:nth-child(odd) {
+    background: var(--Color2)!important;
+    border: none !important; }
+.s-chat-message__pinned {
+    background: var(--Color4) !important;
+    color: #HEX !important;
+    border: none !important; }
+.s-chat-message_timestamp {
+    color: var(--Color1) !important; }
+   
+div#chatMessageContainer {
+    border: none !important; }
+button#label_currentChannel, button.channelSwitcher {
+    border: none !important;
+    background: var(--Color4) !important; }
