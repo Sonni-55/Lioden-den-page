@@ -10,6 +10,8 @@
 /* ___'s den Header */
 
 h1 {
+ font-size: 45px;
+ text-align: center !important;
     background: linear-gradient(
         to right,
         #7953cd 20%,
@@ -23,6 +25,15 @@ h1 {
     text-fill-color: transparent;
     background-size: 500% auto;
     animation: textShine 5s ease-in-out infinite alternate;
+}
+
+@keyframes textShine {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
 }
 
 h3 {
