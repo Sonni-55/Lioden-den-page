@@ -16,7 +16,7 @@ Modifications made by sonni (#493609) */
 /* Header gradient css base from https://www.amitmerchant.com/animated-gradient-effect-in-css/ */
 
 h1 {
- font-size: 30px;
+ font-size: 35px;
  text-align: center !important;
     background: linear-gradient(
         to right,
@@ -39,8 +39,7 @@ h1 {
   }
 }
 
-h1::after { content: '
- ☆⋅⋆ ── '; color: var(--Color4); }
+h1::after { content: '☆⋅⋆ ── '; color: var(--Color4); }
 h1::before { content: '── ⋆⋅☆'; color: var(--Color4); }
 
 h3 {
