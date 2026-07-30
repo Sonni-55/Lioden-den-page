@@ -87,15 +87,15 @@ background: #A3A4BF !important;
 background: #A3A4BF !important;
 color: #BEBFE2 !important;
 border: none !important;
-border-radius: 0px !important;} 
+border-radius: 10px !important;} 
 .breadcrumb .active {
 color: #HEX; }
 
 /* FAPA, KING DYNASTY, ETC. */
  
 .feature {
-background: #A3A4BF !important;
-color: #BEBFE2 !important;
+background: #BF8D50 !important;
+color: #59310E !important;
 border: 3px double #HEX !important;
 border-radius: 0px !important;  }
 
@@ -103,7 +103,7 @@ div.left {
 background: #A3A4BF !important;
 color: #BEBFE2 !important;
 border: none !important;
-border-radius: 0px !important; }
+border-radius: 10px !important; }
 
 .xsmall {
 font-size: 14px !important; }
@@ -112,9 +112,9 @@ font-size: 14px !important; }
 
 .panel {
 background: #D9B166 !important;
-color: #HEX !important;
+color: #59310E !important;
 border: none !important;
-border-radius: 0px !important;
+border-radius: 10px !important;
 box-shadow: none !important;  }
 
 /* Progress bars */
@@ -122,3 +122,13 @@ box-shadow: none !important;  }
 .progress-bar {
 background: #A3A4BF !important; 
 border-radius: 10px !important; }
+
+/* Text box and button? */
+
+input, textarea, select, button.button,
+a.btn.btn-default.button {
+background: #D9B166 !important;
+border: none !important;
+border-radius: 0px !important;
+color: #59310E !important;
+text-shadow: none !important; }
