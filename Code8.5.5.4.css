@@ -51,12 +51,12 @@ font-size: 18px;}
 
 @media (min-width: 220px) {
 body {
-background-color: var(--Color2;
+background-color: var(--Color2);
 background: url("https://i.postimg.cc/XJZTXFnm/lioden-wardrobe-(1)-(21).png") center center fixed !important;
 background-size: cover !important;
 background-repeat: no-repeat;
-color: var(--Color1;
-} }
+color: var(--Color1);
+}
 
 
 /* MAIN PANEL - The panel in front of your background image. Usually a solid color on Lioden.*/
