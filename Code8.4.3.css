@@ -254,8 +254,8 @@ color: var(--Color2) !important; }
 
 /*Comment Box base by Hok-Z #41458 / #170947*/
 #commentBox {
-background-color:#F2E9ED40;
-border: 1px solid var(--Color4) !important;
+background-color:#F2E9ED60;
+border: 2px solid var(--Color4) !important;
 height: 280px !important;
 margin-top: 40px;
 overflow: auto !important;
@@ -264,7 +264,7 @@ border-top-right-radius: 0px !important;
 }
 
 .comment {
-background: var(--Color5) !important;
+background: #D9B26A40 !important;
 border-bottom: 2px solid var(--Color3);
 font-weight: bold;
 color: var(--Color1);
@@ -293,21 +293,3 @@ input#postComment {
 background: var(--Color4) !important;
 color: var(--Color1);
 }
-
-
-/* Trying to fix sparring-box */
-.well, .bg-info, .bg-warning, .bg-success {
-    background-color: var(--Color2) !important;
-    background: var(--Color2) !important;
-    border: 1px solid var(--Color4) !important;
-    color: var(--Color1) !important;
-
-form[action*="spar"], 
-div[style*="background"] {
-    background-color: var(--Color2) !important;
-    color: var(--Color1) !important;
-
- select, input[type="submit"] {
-    background-color: var(--Color3) !important;
-    color: var(--Color1) !important;
-    border: 1px solid var(--Color4) !important; } 
