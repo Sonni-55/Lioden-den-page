@@ -8,12 +8,21 @@
 
 
 /* ___'s den Header */
+
 h1 {
-Background: linear-gradient(45deg, var(--Color4), var(--Color5))
-color: var(--Color1) !important;
-font-size: 45px;
-text-align: center !important;
-Background-clip: text
+    background: linear-gradient(
+        to right,
+        #7953cd 20%,
+        #00affa 30%,
+        #0190cd 70%,
+        #764ada 80%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    background-size: 500% auto;
+    animation: textShine 5s ease-in-out infinite alternate;
 }
 
 h3 {
@@ -182,7 +191,7 @@ box-shadow: none !important;  }
 color: var(--Color5) !important; }
 
 .progress-bar {
-background: linear-gradient(90deg, var(--Color4), var(--Color5)) !important; 
+background: var(--Color4) !important; 
 border-radius: 10px !important; }
 
 /* Text box and button? */
