@@ -20,10 +20,10 @@ h1 {
  text-align: center !important;
     background: linear-gradient(
         to right,
-        Var(--Color5) 20%,
-        Var(--Color4) 30%,
-        Var(--Color5) 70%,
-        Var(--Color5) 80%
+        Var(--Color4) 20%,
+        Var(--Color5) 30%,
+        Var(--Color4) 70%,
+        Var(--Color4) 80%
     );
     -webkit-background-clip: text;
     background-clip: text;
@@ -60,14 +60,12 @@ color: var(--Color1); } }
 /* MAIN PANEL - The panel in front of your background image. Usually a solid color on Lioden.*/
 
 .container.main {
-background-image: linear-gradient(to bottom, #FFE2A640, #FFE2A600) !important;
+background-image: linear-gradient(180deg, #FFE2A640, #FFE2A600) !important;
 transition: none !important;
 animation: none !important;
 border: none;
 box-shadow: none;
 border-radius: 5px; }
-.col-md-9 {
-background: none; }
 
 /* LION AND USER AVATAR OPACITY */
    
@@ -89,7 +87,7 @@ border-radius: 50%; }
 
 
 #lion_image>div::after {
-content : url('https://i.postimg.cc/TwkvxfLc/Untitled244-20260723210218.png')!important;
+content: url('https://i.postimg.cc/TwkvxfLc/Untitled244-20260723210218.png')!important;
 display:block;
 position: absolute!important;
 left: -440px!important;
