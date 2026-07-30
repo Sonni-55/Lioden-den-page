@@ -60,6 +60,7 @@ color: var(--Color1); } }
 /* MAIN PANEL - The panel in front of your background image. Usually a solid color on Lioden.*/
 
 .container.main {
+background-color: transparent !important;
 background-image: linear-gradient(180deg, #FFE2A640, #FFE2A600);
 transition: none !important;
 animation: none !important;
