@@ -46,19 +46,17 @@ h3 {
 color: var(--Color1) !important;
 font-size: 18px;}
  
-/* BACKGROUNDS */
-
-@media screen and (min-width: 601px) { 
-body {
-background: url('https://i.postimg.cc/XJZTXFnm/lioden-wardrobe-(1)-(21).png') center center fixed;
-background-size: cover;
-color: var(--Color1); } }
+/* BACKGROUND */
 
 @media screen and (max-width: 600px){
-body {
-background: url('https://i.postimg.cc/XJZTXFnm/lioden-wardrobe-(1)-(21).png') center center fixed;
-background-size: cover;
-color: var(--Color1); } }
+body::before {
+ Content:'';
+ Position:fixed;
+ Top:0;
+ Left:0;
+ background: url('https://i.postimg.cc/XJZTXFnm/lioden-wardrobe-(1)-(21).png') center center fixed;
+ background-size: cover;
+ color: var(--Color1); } }
 
 /* MAIN PANEL - The panel in front of your background image. Usually a solid color on Lioden.*/
 
@@ -305,7 +303,8 @@ height: 40px;
 position: absolute;
 margin-top: -42px;
 padding-top: 6px;
-Border-radius: 20px
+border: 2px; 
+Border-radius: 20px;
 border-bottom-left-radius: 0px !important;
 border-bottom-right-radius: 0px !important; 
 }
