@@ -245,24 +245,24 @@ color: var(--Color2) !important; }
 
 .s-chat-message a:link,
 .s-chat-message a:visited {
- Color: var(--Color4)!important;
+ Color: var(--Color3)!important;
  background: none !important; }
 .s-chat-message a:hover {
-color: var(--Color5) !important; } 
+color: var(--Color2) !important; } 
 
 /*CHAT */
  
 .s-chat-message:nth-child(even),
 .s-chat-message:nth-child(odd) {
-    background: var(--Color5)!important;
-    Color: var(--Color4)!important; 
+    background: var(--Color4)!important;
+    Color: var(--Color5)!important; 
     border: none !important; }
 .s-chat-message__pinned {
     background: var(--Color2) !important;
     color: var(--Color3) !important;
     border: none !important; }
 .s-chat-message_timestamp {
-    color: var(--Color4) !important; }
+    color: var(--Color3) !important; }
    
 div#chatMessageContainer {
     border: none !important; }
