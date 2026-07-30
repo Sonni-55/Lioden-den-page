@@ -264,8 +264,8 @@ border-top-right-radius: 0px !important;
 }
 
 .comment {
-background: #D9B26A40 !important;
-border-bottom: 2px solid var(--Color3);
+background: #D9B26A60 !important;
+border-bottom: 2px solid #BF8D5060;
 font-weight: bold;
 color: var(--Color1);
 }
@@ -292,4 +292,17 @@ background: var(--Color4)!important;
 input#postComment {
 background: var(--Color4) !important;
 color: var(--Color1);
+}
+
+/* Comment Box Header also by Hok-Z#41458 / #170947 */
+#commentBox::before {
+content: "All comments are welcome!";
+background: var(--Color5);
+color: var(--Color4);
+display: block;
+width: 96.6%;
+height: 40px;
+position: absolute;
+margin-top: -42px;
+padding-top: 6px;
 }
