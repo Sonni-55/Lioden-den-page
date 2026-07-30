@@ -20,10 +20,10 @@ h1 {
  text-align: center !important;
     background: linear-gradient(
         to right,
-        Var(--Color1) 50%,
+        Var(--Color1) 20%,
         Var(--Color4) 30%,
-        Var(--Color1) 50%,
-        Var(--Color1) 70%
+        Var(--Color1) 70%,
+        Var(--Color1) 80%
   
     );
     -webkit-background-clip: text;
