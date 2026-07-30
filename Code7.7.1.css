@@ -17,9 +17,9 @@ h1 {
     background: linear-gradient(
         to right,
         Var(--Color2) 20%,
-        Var(--Color4) 30%,
+        Var(--Color5) 30%,
         Var(--Color3) 70%,
-        Var(--Color5) 80%
+        Var(--Color4) 80%
     );
     -webkit-background-clip: text;
     background-clip: text;
