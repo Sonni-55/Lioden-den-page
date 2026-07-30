@@ -6,7 +6,7 @@ font-size: 50px;
 text-align: center !important;
 }
  
-/* BACKGROUNDS 
+/* BACKGROUNDS */
 
 @media screen and (min-width: 601px) { 
 body {
@@ -20,7 +20,7 @@ background: url('https://i.postimg.cc/XJZTXFnm/lioden-wardrobe-(1)-(21).png') ce
 background-size: cover;
 color: #59310E; } }
 
-/* MAIN PANEL - The panel in front of your background image. Usually a solid color on Lioden.
+/* MAIN PANEL - The panel in front of your background image. Usually a solid color on Lioden.*/
 
 .container.main {
 background: #FFE2A640;
@@ -52,7 +52,7 @@ border-radius: 50%; }
     font-size:17px;
 }
 
-/* LINKS
+/* LINKS */
 Color of links.
  
 a:link,
