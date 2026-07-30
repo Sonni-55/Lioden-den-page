@@ -1,7 +1,15 @@
+:root {
+  Color1: #593414; /*Text, dark brown*/
+  Color2: #D9B26A; /*BG, light yellow*/
+  Color3: #BF8D50; /*Dark yellow*/
+  Color4: #A3A7BF; /*Accents, Blue*/
+  Color5: #F2E9ED; /*Light blue*/
+}
+
 
 /* ___'s den Header */
 h1 {
-color: #59310E !important;
+color: var(Color1) !important;
 font-size: 50px;
 text-align: center !important;
 }
@@ -12,18 +20,18 @@ text-align: center !important;
 body {
 background: url('https://i.postimg.cc/XJZTXFnm/lioden-wardrobe-(1)-(21).png') center center fixed;
 background-size: cover;
-color: #59310E; } }
+color: var(Color1); } }
 
 @media screen and (max-width: 600px){
 body {
 background: url('https://i.postimg.cc/XJZTXFnm/lioden-wardrobe-(1)-(21).png') center center fixed;
 background-size: cover;
-color: #59310E; } }
+color: var(Color1); } }
 
 /* MAIN PANEL - The panel in front of your background image. Usually a solid color on Lioden.*/
 
 .container.main {
-background: #FFE2A640;
+background: var(Color2); /*MAKE TRANSPARENT!*/
 transition: none !important;
 animation: none !important;
 border: none;
@@ -56,20 +64,20 @@ border-radius: 50%; }
 /* TOPBAR, NAVBAR, & BREADCRUMB */
  
 .topbar {
-background: #D9B166 !important;
-color: #59310E !important;
+background: var(Color3) !important;
+color: var(Color1) !important;
 border: none !important;
 border-radius: 0px !important;  }
  
 .navbar {
-background: #D9B166 !important;
-color: #59310E !important;
+background: var(Color2) !important;
+color: var(Color1) !important;
 border: none !important;
 border-radius: 0px !important; }
 
 .navbar li a:hover {
 background: #D9B166 !important;
-color: #e4a574 !important; }
+color: var(Color1) !important; }
 
 /* This is mobile collapable navbar color changes.
 toggle is the button that opens the navbar
@@ -77,15 +85,15 @@ toggle is the button that opens the navbar
 
 .navbar-toggle {
 border: none !important;
-background: #A3A4BF !important;
+background: var(Color4) !important;
 }
 
 
 /* Bookmark Bar - aka breadcrumb, this is where your link path is shown */
 
 .breadcrumb {
-background: #A3A4BF !important;
-color: #BEBFE2 !important;
+background: var(Color4) !important;
+color: var(Color5) !important;
 border: none !important;
 border-radius: 10px !important;} 
 .breadcrumb .active {
@@ -94,23 +102,23 @@ color: #HEX; }
 /* table body? */
 
 .table {
-    background: #D9B166;
+    background: var(Color2);
     border: 1px;
-    color: #59310E;
-    box-shadow: 1px 1px 1px #59310E;
+    color: var(Color1);
+    box-shadow: 1px 1px 1px var(Color4);
 }
  
 /* FAPA, KING DYNASTY, ETC. */
  
 .feature {
-background: #BF8D50 !important;
-color: #59310E !important;
+background: var(Color4) !important;
+color: var(Color5) !important;
 border: 3px double #HEX !important;
 border-radius: 0px !important;  }
 
 div.left {
-background: #A3A4BF !important;
-color: #BEBFE2 !important;
+background: var(Color3) !important;
+color: var(Color1) !important;
 border: none !important;
 border-radius: 10px !important; }
 
@@ -120,8 +128,8 @@ font-size: 14px !important; }
 /* Side panel */
 
 .panel {
-background: #D9B166 !important;
-color: #59310E !important;
+background: var(Color2) !important;
+color: var(Color1) !important;
 border: none !important;
 border-radius: 10px !important;
 box-shadow: none !important;  }
@@ -130,21 +138,21 @@ box-shadow: none !important;  }
 
 /* background container */
 .progress {
-    background: #fff;
+    background: var(Color5);
     border-radius: 10px;
     border: 1px;
 }
 
 .progress-bar {
-background: #A3A4BF !important; 
+background: var(Color4) !important; 
 border-radius: 10px !important; }
 
 /* Text box and button? */
 
 input, textarea, select, button.button,
 a.btn.btn-default.button {
-background: #D9B166 !important;
+background: var(Color2) !important;
 border: none !important;
 border-radius: 0px !important;
-color: #59310E !important;
+color: var(Color1) !important;
 text-shadow: none !important; }
