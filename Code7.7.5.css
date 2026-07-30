@@ -1,3 +1,7 @@
+/* CSS template made by jester (#187561) & katie (#106445)
+Modifications made by sonni (#493609) */
+ 
+
 :root {
  --Color1: #593414; /*Text, dark brown*/
  --Color2: #D9B26A; /*BG, light yellow*/
@@ -26,17 +30,14 @@ h1 {
     -webkit-text-fill-color: transparent;
     text-fill-color: transparent;
     background-size: 500% auto;
-    animation: textShine 5s ease-in-out infinite alternate;
+    animation: move 2s linear infinite;
+}
+@keyframes move {
+  to {
+    background-position: right;
+  }
 }
 
-@keyframes textShine {
-    0% {
-        background-position: 0% 50%;
-    }
-    100% {
-        background-position: 100% 50%;
-    }
-}
 
 h3 {
 color: var(--Color1) !important;
@@ -59,7 +60,7 @@ color: var(--Color1); } }
 /* MAIN PANEL - The panel in front of your background image. Usually a solid color on Lioden.*/
 
 .container.main {
-background: #FFE2A640;
+background: linear-gradient(#FFE2A640, #FFE2A600)
 transition: none !important;
 animation: none !important;
 border: none;
@@ -82,9 +83,7 @@ border-radius: 50%; }
 /* CUSTOM KING TITLE - AFTER */
 
 #about > tbody > tr:nth-child(1) > td > div::after {
-
     content:' Text';
-
     font-size:17px;
 }
 
