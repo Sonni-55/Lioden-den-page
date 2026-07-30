@@ -39,6 +39,8 @@ h1 {
   }
 }
 
+h1::after { content: '☆⋅⋆ ── '; color: var(--Color4); }
+h1::before { content: '── ⋆⋅☆'; color: var(--Color4); }
 
 h3 {
 color: var(--Color1) !important;
@@ -70,6 +72,15 @@ box-shadow: none;
 border-radius: 5px; }
 .col-md-9 {
 background: none; } 
+
+/* Container behind edit your details */
+#accountoptionspanel .left,
+#changepasswordpanel .b,
+#editdetailspanel .b,
+#sparring,
+#allies .left,
+#editdetailspanel .right {
+  background: var(--Color4)!important;
 
 /* LION AND USER AVATAR OPACITY */
    
@@ -132,6 +143,8 @@ border-radius: 10px !important;}
 .breadcrumb .active {
 color: var(--Color5); }
 
+.breadcrumb::after { content: '૮꒰˶ ⁠❛  ˕ ⁠❛˶꒱ა '; color: var(--Color5); }
+ 
 /* table body*/
 
 .table {
