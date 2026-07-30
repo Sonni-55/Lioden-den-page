@@ -257,7 +257,7 @@ border-top-right-radius: 0px !important;
 }
 
 .comment {
-background: var(--Color5) !important;
+background: var(--Color3) !important;
 border-bottom: 2px solid var(--Color3);
 font-weight: bold;
 color: var(--Color1);
