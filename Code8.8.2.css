@@ -411,11 +411,12 @@ transition: 1s }
 overflow-y: auto;
 height: 250px; }
 
-#chatBar,
-#chatContainer,
-div.s-chat,
-.s-chat-wrapper,
-.s-chat-sidebar {
+#fra_chatContainer,
+#fra_chatContainer .s-chat-wrapper,
+#fraChat,
+#fraChatArea,
+#chatMessageContainer,
+#chatMessageList {
   background: transparent !important;
   background-image: none !important;
   box-shadow: none !important;
