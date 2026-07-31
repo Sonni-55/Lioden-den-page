@@ -51,17 +51,16 @@ font-size: 18px;}
 @media screen and (min-width: 801px) { 
 body {
 background: url('https://i.postimg.cc/XJZTXFnm/lioden-wardrobe-(1)-(21).png') center center fixed;
-background-size: cover;
+background-size: 100%;
 color: var(--Color1); } }
 
 @media screen and (max-width: 800px){
 body {
 background: url('https://i.postimg.cc/XJZTXFnm/lioden-wardrobe-(1)-(21).png');
-background-size: cover;
+background-size: 100%;
 background-repeat:no-repeat;
 background-transition:none; 
 color: var(--Color1); } }
-
 
 	
 /* MAIN PANEL - The panel in front of your background image. Usually a solid color on Lioden.*/
@@ -351,10 +350,10 @@ border: none !important; }
 not touch the even/odd specifications */ 
 
 .s-chat-message:nth-child(even) {
-background: #F2E9ED80 !important;
+background: var(--Color5) !important;
 border: none !important; }
 .s-chat-message:nth-child(odd) {
-background: #D9B26A80 !important;
+background: var(--Color2) !important;
 border: none !important; }
 
 /* This changes the color of pinged messages. Yes, it has to say background-color
@@ -362,7 +361,7 @@ no it doesn't work if you just do background.
 may 8th: stop touchy */
 	
 #chatMessageList[data-pings="enabled"] .s-chat-message_mention {
-background-color: var(--Color2) !important;
+background-color: var(--Color3) !important;
 border-left: 6px solid var(--Color3) !important;
 color: var(--Color1) !important; }
 
