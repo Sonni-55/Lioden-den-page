@@ -48,18 +48,20 @@ color: var(--Color1) !important;
 font-size: 18px;}
  
 /* BACKGROUND*/
+Html{
+	overscroll-behavior-y:none;
+}
 
 Html, body{
 	background-color: var(--Color2)!important;
 	min-height:100vh;
-    Margin:0;
+    margin:0;
 	padding:0;
 }
 
 /*PC*/
 @media screen and (min-width: 801px) {
   body {
-    background-color: var(--Color2);
     background: url("https://i.postimg.cc/XJZTXFnm/lioden-wardrobe-(1)-(21).png") center center fixed !important;
     background-size: cover !important;
     background-repeat: no-repeat;
@@ -69,10 +71,10 @@ Html, body{
 /*On mobile*/
 @media screen and (max-width: 800px) {
   body {
-    background-color: var(--Color2);
+    background-color: transparent;
     color: var(--Color1);
   }
-	
+}
 /*Scrolling problem fix*/
 body::after {
     content: "";
@@ -80,8 +82,8 @@ body::after {
     top: 0;
     left: 0;
     right: 0;
-    height: 160dvh;
-	min-height: 160vh;
+    height: 100dvh;
+	min-height: 100vh;
     z-index: -1;
     background: url("https://i.postimg.cc/XJZTXFnm/lioden-wardrobe-(1)-(21).png") center center no-repeat;
     background-size: cover;
