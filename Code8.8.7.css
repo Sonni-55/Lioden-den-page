@@ -1,6 +1,6 @@
 /* CSS template made by jester (#187561) & katie (#106445)
-Other CSS credits are by the part made by them
-Modifications made by sonni (#493609) */
+Modifications made by sonni (#493609) with the help of various free to use coding websites
+Other credits are by the part made by that person*/
  
 
 :root {
@@ -49,20 +49,45 @@ font-size: 18px;}
  
 /* BACKGROUND*/
 
-@media (min-width: 220px) {
-body {
-background-color: var(--Color2);
-background: url("https://i.postimg.cc/XJZTXFnm/lioden-wardrobe-(1)-(21).png") center center fixed !important;
-background-size: cover !important;
-background-repeat: no-repeat;
-color: var(--Color1);
+Html, body{
+	background-color: var(--Color2)!important;
+	min-height:100vh;
+    Margin:0;
+	padding:0;
 }
 
-@media only screen and (max-width: 307px) {
-Body {
-background: none !important
-} }
-
+/*PC*/
+@media screen and (min-width: 801px) {
+  body {
+    background-color: var(--Color2);
+    background: url("https://i.postimg.cc/XJZTXFnm/lioden-wardrobe-(1)-(21).png") center center fixed !important;
+    background-size: cover !important;
+    background-repeat: no-repeat;
+    color: var(--Color1);
+  }
+}
+/*On mobile*/
+@media screen and (max-width: 800px) {
+  body {
+    background-color: var(--Color2);
+    color: var(--Color1);
+  }
+	
+/*Scrolling problem fix*/
+body::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 160dvh;
+	min-height: 160vh;
+    z-index: -1;
+    background: url("https://i.postimg.cc/XJZTXFnm/lioden-wardrobe-(1)-(21).png") center center no-repeat;
+    background-size: cover;
+  }
+}
+	
 /* MAIN PANEL - The panel in front of your background image. Usually a solid color on Lioden.*/
 
 .container.main {
