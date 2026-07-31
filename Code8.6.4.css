@@ -170,10 +170,6 @@ background: var(--Color5) !important;
 border-radius: 0px !important; 
 color: var(--Color4) !important; } 
 
-#sparring .right-odd {
-background-color: var(--Color4) !important;
-}
-
 /* FAPA, KING DYNASTY, ETC. */
  
 .feature {
@@ -233,7 +229,6 @@ border-radius: 0px !important;
 color: var(--Color1) !important;
 text-shadow: none !important; }
 
-
 /* CAVE NAMES - changes the color of of where cave names are displayed */
  
 .cave-grid,
@@ -243,6 +238,10 @@ color: var(--Color5) !important;
 border: none !important;
 border-radius: 0px !important; }
 
+#sparring .right-odd {
+background-color: var(--Color4) !important;
+} 
+	
 /* LINKS */
  
 a:link,
@@ -378,17 +377,6 @@ i'm being so fr stop touching this */
 html.nolayout {
 background: none !important; }
 
-
-iframe#chat,
-iframe[src*="chat"],
-.chat-wrapper,
-.chat-container,
-#chatMessageList,
-div#chatMessageContainer {
-    background: transparent !important;
-    background-color: transparent !important;
-    background-image: none !important;
-}
 
 
 	
