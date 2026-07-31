@@ -238,9 +238,10 @@ color: var(--Color5) !important;
 border: none !important;
 border-radius: 0px !important; }
 
-#sparring.table td.right-odd {
-background-color: var(--Color4) !important;
-} 
+#sparring.table td, 
+#sparring td {
+  background-color: var(--Color4) !important;
+}	
 	
 /* LINKS */
  
