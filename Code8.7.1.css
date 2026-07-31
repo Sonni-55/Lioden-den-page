@@ -134,7 +134,7 @@ border-radius: 10px !important;}
 .breadcrumb .active {
 color: var(--Color5); }
 
-.breadcrumb::after { content: '&nbsp ૮꒰˶ ⁠❛  ˕ ⁠❛˶꒱ა '; color: var(--Color5); }
+.breadcrumb::after{ content: ' ૮꒰˶ ⁠❛  ˕ ⁠❛˶꒱ა '; color: var(--Color5); }
  
 /* table body*/
 
@@ -229,7 +229,7 @@ border-radius: 0px !important;
 color: var(--Color1) !important;
 text-shadow: none !important; }
 
-#sparring td.right-odd {
+#sparring .innter-table .right-odd {
   background-color:red !important;
 }
 
