@@ -170,11 +170,9 @@ background: var(--Color5) !important;
 border-radius: 0px !important; 
 color: var(--Color4) !important; } 
 
-#sparring.right-odd {
-  background: var(--Color4) !important;
-  border-radius: 0px !important; 
-  color: var(--Color5) !important; 
-} 
+#sparring .right-odd {
+background-color: var(--Color4) !important;
+}
 
 /* FAPA, KING DYNASTY, ETC. */
  
@@ -381,13 +379,17 @@ html.nolayout {
 background: none !important; }
 
 
-#chatContainer,
+iframe#chat,
+iframe[src*="chat"],
+.chat-wrapper,
+.chat-container,
 #chatMessageList,
 div#chatMessageContainer {
-    background: none !important;
+    background: transparent !important;
     background-color: transparent !important;
     background-image: none !important;
 }
+
 
 	
 
