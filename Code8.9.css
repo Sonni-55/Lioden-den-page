@@ -53,7 +53,7 @@ Html{
 }
 
 Html, body{
-	background-color: var(--Color2)!important;
+	background-color: var(--Color2);
 	min-height:100vh;
     margin:0;
 	padding:0;
@@ -81,11 +81,13 @@ body::after {
     top: 0;
     left: 0;
     right: 0;
+	bottom:0;
     height: 100dvh;
 	min-height: 100vh;
     z-index: -1;
     background: url("https://i.postimg.cc/XJZTXFnm/lioden-wardrobe-(1)-(21).png") center center no-repeat;
     background-size: cover;
+	pointer-events:none;
   }
 }
 	
