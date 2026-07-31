@@ -214,7 +214,7 @@ border-radius: 10px !important; }
 
 /* Text box and button*/
 
-input, select, button.button,
+input, button.button,
 a.btn.btn-default.button {
 background: var(--Color2) !important;
 border: none !important;
@@ -229,6 +229,17 @@ border-radius: 0px !important;
 color: var(--Color1) !important;
 text-shadow: none !important; }
 
+Select {
+background: var(--Color4) !important;
+border: none !important;
+border-radius: 0px !important;
+color: var(--Color5) !important;
+text-shadow: none !important; } 
+
+#sparring.table td {
+  background-color: var(--Color2) !important;
+}
+
 /* CAVE NAMES - changes the color of of where cave names are displayed */
  
 .cave-grid,
@@ -237,11 +248,6 @@ background: var(--Color4) !important;
 color: var(--Color5) !important;
 border: none !important;
 border-radius: 0px !important; }
-
-#sparring.table td, 
-#sparring td {
-  background-color: var(--Color2) !important;
-}	
 	
 /* LINKS */
  
@@ -269,8 +275,6 @@ border: 2px solid var(--Color4) !important;
 height: 280px !important;
 margin-top: 40px;
 overflow: auto !important;
-border-top-left-radius: 0px !important;
-border-top-right-radius: 0px !important;
 position: relative;
 }
 
@@ -383,14 +387,6 @@ background: none !important; }
 	
 
 /* SCROLL BOXES/just boxes */
- 
-::-webkit-scrollbar {
-width: 7px;
-height: 7px; }
-::-webkit-scrollbar-track {
-background: var(--Color5);}
-::-webkit-scrollbar-thumb {
-background: var(--Color4); }
 
 .boxcontainer {
 background: none;
@@ -404,9 +400,9 @@ height: 250px; }
    
 .Box1 {
 float: left;
-background: var(--Color5) !important;
-color: var(--Color4) !important;
-border: none !important;
+background: var(--Color2) !important;
+color: var(--Color1) !important;
+border: 4px solid var(--Color3) !important;
 border-radius: 0px !important;
 padding: 5px;
 float: left;
