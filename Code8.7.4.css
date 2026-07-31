@@ -229,10 +229,9 @@ border-radius: 0px !important;
 color: var(--Color1) !important;
 text-shadow: none !important; }
 
-#sparring tr.right-odd,
-#sparring td.right-odd {
+#sparring select {
   background-color: red !important;
-}
+} 
 
 /* CAVE NAMES - changes the color of of where cave names are displayed */
  
