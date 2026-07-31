@@ -58,6 +58,10 @@ background-repeat: no-repeat;
 color: var(--Color1);
 }
 
+@media only screen and (max-width: 307px) {
+Body {
+background: none !important
+} }
 
 /* MAIN PANEL - The panel in front of your background image. Usually a solid color on Lioden.*/
 
