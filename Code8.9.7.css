@@ -51,14 +51,14 @@ font-size: 18px;}
 @media screen and (min-width: 801px) { 
 body {
 background: url('https://i.postimg.cc/XJZTXFnm/lioden-wardrobe-(1)-(21).png') center center fixed;
-background-size: 100%;
+background-size: 100% !important;
 color: var(--Color1); } }
 
 @media screen and (max-width: 800px){
 body {
 background: url('https://i.postimg.cc/XJZTXFnm/lioden-wardrobe-(1)-(21).png');
-background-size: cover;
-background-attachment: scroll;
+background-size: cover !important;
+background-attachment: scroll !important;
 background-repeat:no-repeat;
 color: var(--Color1); } }
 
