@@ -134,7 +134,8 @@ border-radius: 10px !important;}
 .breadcrumb .active {
 color: var(--Color5); }
 
-.breadcrumb::after{ content: ' ૮꒰˶ ⁠❛  ˕ ⁠❛˶꒱ა '; color: var(--Color5); }
+.breadcrumb::after{ content: ' ૮꒰˶ ⁠❛  ˕ ⁠❛˶꒱ა '; color: var(--Color5); 
+				  Marging:left 4px}
  
 /* table body*/
 
@@ -229,8 +230,9 @@ border-radius: 0px !important;
 color: var(--Color1) !important;
 text-shadow: none !important; }
 
+/*Sparring box right side*/
 #sparring td:has(select) {
-  background-color: red !important;
+  background-color: var(--Color4)!important;
 } 
 
 /* CAVE NAMES - changes the color of of where cave names are displayed */
@@ -309,8 +311,11 @@ button#label_currentChannel {
 border: none !important;
 background: var(--Color4) !important; }
 
-div#chatMessageContainer { 
-border: none !important; }
+div#chatMessageContainer, #chatMessagelist { 
+Background: transparent !important;
+Background-image: none !important;
+border: none !important;
+}
 
 .s-chat-message_timestamp {
 color: var(--Color1) !important; }
@@ -342,11 +347,6 @@ border: none !important; }
 
 /* Odd will show at the TOP of chat, even will show every other message under it. If you want both colors the same, do
 not touch the even/odd specifications */ 
-
-.s-chat-message {
-background: #HEX !important;
-color: #HEX !important;
-border-bottom: #HEX !important; }
 
 .s-chat-message:nth-child(even) {
 background: #F2E9ED80 !important;
