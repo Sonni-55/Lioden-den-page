@@ -134,7 +134,7 @@ border-radius: 10px !important;}
 .breadcrumb .active {
 color: var(--Color5); }
 
-.breadcrumb::after { content: '  ૮꒰˶ ⁠❛  ˕ ⁠❛˶꒱ა '; color: var(--Color5); }
+.breadcrumb::after { content: &nbsp '૮꒰˶ ⁠❛  ˕ ⁠❛˶꒱ა '; color: var(--Color5); }
  
 /* table body*/
 
@@ -173,9 +173,9 @@ color: var(--Color4) !important; }
 /* FAPA, KING DYNASTY, ETC. */
  
 .feature {
-background: var(--Color4) !important;
-color: var(--Color5) !important;
-border: 3px var(--Color5) !important;
+background: var(--Color3) !important;
+color: var(--Color1) !important;
+border: none !important;
 border-radius: 0px !important;  }
 
 div.left {
@@ -214,7 +214,7 @@ border-radius: 10px !important; }
 
 /* Text box and button*/
 
-input, button.button,
+input, select, button.button,
 a.btn.btn-default.button {
 background: var(--Color2) !important;
 border: none !important;
@@ -229,15 +229,8 @@ border-radius: 0px !important;
 color: var(--Color1) !important;
 text-shadow: none !important; }
 
-Select {
-background: var(--Color4) !important;
-border: none !important;
-border-radius: 0px !important;
-color: var(--Color5) !important;
-text-shadow: none !important; } 
-
-#sparring.table td {
-  background-color: var(--Color2) !important;
+#sparring.table.right-odd td {
+  background-color: var(--Color4) !important;
 }
 
 /* CAVE NAMES - changes the color of of where cave names are displayed */
