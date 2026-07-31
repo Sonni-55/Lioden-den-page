@@ -170,7 +170,7 @@ background: var(--Color5) !important;
 border-radius: 0px !important; 
 color: var(--Color4) !important; } 
 
-#sparring.right.odd {
+#sparring.right-odd {
 	background: var(--Color4) !important;
 }
 /* FAPA, KING DYNASTY, ETC. */
@@ -274,8 +274,8 @@ position: relative;
 }
 
 .comment {
-background: #D9B26A60 !important;
-border-bottom: 2px solid #BF8D5060;
+background: #D9B26A80 !important;
+border-bottom: 2px solid #BF8D5080;
 font-weight: bold;
 color: var(--Color1);
 }
@@ -320,7 +320,7 @@ color: var(--Color1) !important; }
 .s-chat-sidebar #fraChatChannelMenu,
 button.channelSwitcher, button.channelSwitcher.active {
     background: var(--Color4) !important;
-color: var(--Color5) !important;	
+color: var(--Color1) !important;	
 border: none !important;
 border-radius: 0px !important;
 box-shadow: none !important; }
@@ -331,9 +331,9 @@ div.emoteList.active {
   box-shadow: none !important;
 }
 div.emoteList.active::before {
-background: var(--Color2)
+background: var(--Color3)
 border-top: none !important;
-border: 1px solid var(--Color3) !important; }
+border: 1px solid var(--Color1) !important; }
 
 /* PINNED MESSAGES - This will change the background color of where staff pin news */
 
@@ -351,10 +351,10 @@ color: #HEX !important;
 border-bottom: #HEX !important; }
 
 .s-chat-message:nth-child(even) {
-background: #F2E9ED60 !important;
+background: #F2E9ED80 !important;
 border: none !important; }
 .s-chat-message:nth-child(odd) {
-background: #D9B26A60 !important;
+background: #D9B26A80 !important;
 border: none !important; }
 
 /* This changes the color of pinged messages. Yes, it has to say background-color
@@ -369,7 +369,7 @@ color: var(--Color1) !important; }
 /* This is the character counter, that displays X/150 */
 
 div#lblCharacterCounter {
-color: var(--Color1) !important; }
+color: var(--Color5) !important; }
 
 /* I can't remember what this does but I know things get weird if you touch it
 that means do NOT touch it.
