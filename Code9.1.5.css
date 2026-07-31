@@ -343,7 +343,7 @@ border: 1px solid var(--Color3) !important; }
 /* PINNED MESSAGES - This will change the background color of where staff pin news */
 
 .s-chat-message__pinned {
-background-color: var(--Color2) !important;
+background-color: var(--Color3) !important;
 color: var(--Color1) !important;
 border: none !important; }
 
@@ -354,7 +354,7 @@ not touch the even/odd specifications */
 background: var(--Color2) !important;
 border: none !important; }
 .s-chat-message:nth-child(odd) {
-background: var(--Color5) !important;
+background: var(--Color3) !important;
 border: none !important; }
 
 /* This changes the color of pinged messages. Yes, it has to say background-color
@@ -362,7 +362,7 @@ no it doesn't work if you just do background.
 may 8th: stop touchy */
 	
 #chatMessageList[data-pings="enabled"] .s-chat-message_mention {
-background-color: var(--Color3) !important;
+background-color: var(--Color5) !important;
 border-left: 6px solid var(--Color3) !important;
 color: var(--Color1) !important; }
 
