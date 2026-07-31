@@ -170,7 +170,7 @@ background: var(--Color5) !important;
 border-radius: 0px !important; 
 color: var(--Color4) !important; } 
 
-#sparring .right-odd {
+#sparring.right-odd {
   background: var(--Color4) !important;
   border-radius: 0px !important; 
   color: var(--Color5) !important; 
@@ -314,8 +314,7 @@ button#label_currentChannel {
 border: none !important;
 background: var(--Color4) !important; }
 
-div#chatMessageContainer {
-background: transparent !important; 
+div#chatMessageContainer { 
 border: none !important; }
 
 .s-chat-message_timestamp {
@@ -381,7 +380,21 @@ i'm being so fr stop touching this */
 html.nolayout {
 background: none !important; }
 
+html, body {
+    background: transparent !important;
+    background-color: transparent !important;
+    background-image: none !important;
+}
 
+#chatContainer,
+#chatMessageList,
+div#chatMessageContainer,
+div#fraChat,
+.s-chat {
+    background: transparent !important;
+    background-color: transparent !important;
+    background-image: none !important;
+}
 
 	
 
