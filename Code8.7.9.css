@@ -410,4 +410,18 @@ transition: 1s }
 .Box1:hover {
 overflow-y: auto;
 height: 250px; }
-   
+
+
+.s-chat-sidebar,
+.s-chat-sidebar #fraChatChannelMenu,
+#chatMessageContainer,
+#chatMessageList,
+button.channelSwitcher,
+button.channelSwitcher.active,
+#fraChatArea,
+.s-chat-wrapper {
+  background-image: none !important;
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+} 
