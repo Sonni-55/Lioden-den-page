@@ -380,18 +380,11 @@ i'm being so fr stop touching this */
 html.nolayout {
 background: none !important; }
 
-html, body {
-    background: transparent !important;
-    background-color: transparent !important;
-    background-image: none !important;
-}
 
 #chatContainer,
 #chatMessageList,
-div#chatMessageContainer,
-div#fraChat,
-.s-chat {
-    background: transparent !important;
+div#chatMessageContainer {
+    background: none !important;
     background-color: transparent !important;
     background-image: none !important;
 }
