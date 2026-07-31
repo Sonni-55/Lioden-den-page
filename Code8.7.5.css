@@ -229,7 +229,7 @@ border-radius: 0px !important;
 color: var(--Color1) !important;
 text-shadow: none !important; }
 
-#sparring select {
+#sparring td:has(select) {
   background-color: red !important;
 } 
 
