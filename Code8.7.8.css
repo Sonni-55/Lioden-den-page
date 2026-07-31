@@ -134,8 +134,7 @@ border-radius: 10px !important;}
 .breadcrumb .active {
 color: var(--Color5); }
 
-.breadcrumb::after{ content: ' ૮꒰˶ ⁠❛  ˕ ⁠❛˶꒱ა '; color: var(--Color5); 
-				  Marging:left 4px}
+.breadcrumb::after{ content: ' ૮꒰˶ ⁠❛  ˕ ⁠❛˶꒱ა '; color: var(--Color5); }
  
 /* table body*/
 
@@ -337,16 +336,8 @@ border-top: none !important;
 border: 1px solid var(--Color3) !important; }
 
 /* Trying to fix bg */
-#chatMessageContainer,
-#chatMessageList,
-.s-chat-wrapper,
-.s-chat-container,
-.s-chat-area,
-#fraChatArea,
-#fraChat {
-  background-image: none !important;
-  background-color: transparent !important;
-  border: none !important;
+#chatMessageContainer, #chatMessageList, [class*="s-chat"], [id*="fraChat"], [id*="chat"] {
+  background: transparent !important;
   box-shadow: none !important;
 }
 	
