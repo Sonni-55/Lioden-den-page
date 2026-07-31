@@ -232,7 +232,7 @@ text-shadow: none !important; }
 
 /*Sparring box right side*/
 #sparring td:has(select) {
-  background-color: var(--Color4)!important;
+  background-color: var(--Color3)!important;
 } 
 
 /* CAVE NAMES - changes the color of of where cave names are displayed */
@@ -312,8 +312,6 @@ border: none !important;
 background: var(--Color4) !important; }
 
 div#chatMessageContainer, #chatMessagelist { 
-Background: transparent !important;
-Background-image: none !important;
 border: none !important;
 }
 
@@ -338,6 +336,20 @@ background: var(--Color2);
 border-top: none !important;
 border: 1px solid var(--Color3) !important; }
 
+/* Trying to fix bg */
+#chatMessageContainer,
+#chatMessageList,
+.s-chat-wrapper,
+.s-chat-container,
+.s-chat-area,
+#fraChatArea,
+#fraChat {
+  background-image: none !important;
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+	
 /* PINNED MESSAGES - This will change the background color of where staff pin news */
 
 .s-chat-message__pinned {
