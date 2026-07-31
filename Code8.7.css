@@ -77,7 +77,7 @@ background: none; }
    
 div#lion_image {
 opacity: 1.0;
-border: 8px double var(--Color4);
+border: 10px double var(--Color4);
 border-radius: 20%;
 overflow: hidden; }   
 table#player img {
@@ -134,7 +134,7 @@ border-radius: 10px !important;}
 .breadcrumb .active {
 color: var(--Color5); }
 
-.breadcrumb::after { content: &nbsp '૮꒰˶ ⁠❛  ˕ ⁠❛˶꒱ა '; color: var(--Color5); }
+.breadcrumb::after { content: '&nbsp ૮꒰˶ ⁠❛  ˕ ⁠❛˶꒱ა '; color: var(--Color5); }
  
 /* table body*/
 
@@ -229,8 +229,8 @@ border-radius: 0px !important;
 color: var(--Color1) !important;
 text-shadow: none !important; }
 
-#sparring.table.right-odd td {
-  background-color: var(--Color4) !important;
+#sparring td.right-odd {
+  background-color:red !important;
 }
 
 /* CAVE NAMES - changes the color of of where cave names are displayed */
