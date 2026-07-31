@@ -351,10 +351,10 @@ border: none !important; }
 not touch the even/odd specifications */ 
 
 .s-chat-message:nth-child(even) {
-background: var(--Color2) !important;
+background: #BF8D5080 !important;
 border: none !important; }
 .s-chat-message:nth-child(odd) {
-background: var(--Color3) !important;
+background: #D9B26A80!important;
 border: none !important; }
 
 /* This changes the color of pinged messages. Yes, it has to say background-color
