@@ -74,7 +74,6 @@ Html, body{
     background-color: transparent;
     color: var(--Color1);
   }
-}
 /*Scrolling problem fix*/
 body::after {
     content: "";
