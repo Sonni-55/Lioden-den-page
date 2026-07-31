@@ -170,6 +170,9 @@ background: var(--Color5) !important;
 border-radius: 0px !important; 
 color: var(--Color4) !important; } 
 
+#sparring.right.odd {
+	background: var(--Color4) !important;
+}
 /* FAPA, KING DYNASTY, ETC. */
  
 .feature {
@@ -214,9 +217,16 @@ border-radius: 10px !important; }
 
 /* Text box and button*/
 
-input, textarea, select, button.button,
+input, select, button.button,
 a.btn.btn-default.button {
 background: var(--Color2) !important;
+border: none !important;
+border-radius: 0px !important;
+color: var(--Color1) !important;
+text-shadow: none !important; }
+
+textarea {
+background: var(--Color5) !important;
 border: none !important;
 border-radius: 0px !important;
 color: var(--Color1) !important;
@@ -253,7 +263,7 @@ color: var(--Color2) !important; }
 
 /*Comment Box base by Hok-Z #41458 / #170947*/
 #commentBox {
-background-color:#F2E9ED60;
+background-color:#;
 border: 2px solid var(--Color4) !important;
 height: 280px !important;
 margin-top: 40px;
@@ -294,8 +304,82 @@ background: var(--Color4) !important;
 color: var(--Color1);
 }
 
+	
+/* CHAT */
+
+button#label_currentChannel {
+border: none !important;
+background: var(--Color4) !important; }
+
+div#chatMessageContainer {
+border: none !important; }
+
+.s-chat-message_timestamp {
+color: var(--Color1) !important; }
+
+.s-chat-sidebar #fraChatChannelMenu,
+button.channelSwitcher, button.channelSwitcher.active {
+    background: var(--Color4) !important;
+color: var(--Color5) !important;	
+border: none !important;
+border-radius: 0px !important;
+box-shadow: none !important; }
+
+div.emoteList.active {
+  background: var(--Color3) !important;
+  border: 1px solid var(--Color1) !important;
+  box-shadow: none !important;
+}
+div.emoteList.active::before {
+background: var(--Color2)
+border-top: none !important;
+border: 1px solid var(--Color3) !important; }
+
+/* PINNED MESSAGES - This will change the background color of where staff pin news */
+
+.s-chat-message__pinned {
+background-color: var(--Color2) !important;
+color: var(--Color1) !important;
+border: none !important; }
+
+/* Odd will show at the TOP of chat, even will show every other message under it. If you want both colors the same, do
+not touch the even/odd specifications */ 
+
+.s-chat-message {
+background: #HEX !important;
+color: #HEX !important;
+border-bottom: #HEX !important; }
+
+.s-chat-message:nth-child(even) {
+background: #F2E9ED60 !important;
+border: none !important; }
+.s-chat-message:nth-child(odd) {
+background: #D9B26A60 !important;
+border: none !important; }
+
+/* This changes the color of pinged messages. Yes, it has to say background-color
+no it doesn't work if you just do background.
+may 8th: stop touchy */
+	
+#chatMessageList[data-pings="enabled"] .s-chat-message_mention {
+background-color: var(--Color2) !important;
+border-left: 6px solid var(--Color3) !important;
+color: var(--Color1) !important; }
+
+/* This is the character counter, that displays X/150 */
+
+div#lblCharacterCounter {
+color: var(--Color1) !important; }
+
+/* I can't remember what this does but I know things get weird if you touch it
+that means do NOT touch it.
+i'm being so fr stop touching this */
+html.nolayout {
+background: none !important; }
 
 
+
+	
 
 /* SCROLL BOXES/just boxes */
  
@@ -334,36 +418,3 @@ transition: 1s }
 overflow-y: auto;
 height: 250px; }
    
-.Box2 {
-float: right;
-background: var(--Color5) !important;
-color: var(--Color4) !important;
-border: none !important;
-border-radius: 0px !important;
-padding: 5px;
-float: right;
-height: 75px;
-width: 30%;
-overflow: hidden;
-margin-bottom: 10px;
-transition: 1s }   
-.Box2:hover {
-overflow-y: auto;
-height: 250px; }
-	
-.Box3 {
-float: right;
-background: var(--Color5) !important;
-color: var(--Color4) !important;
-border: none !important;
-border-radius: 0px !important;
-padding: 5px;
-float: right;
-height: 75px;
-width: 65%;
-overflow: hidden;
-margin-bottom: 10px;
-transition: 1s }   
-.Box3:hover {
-overflow-y: auto;
-height: 250px; }
