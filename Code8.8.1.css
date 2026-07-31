@@ -411,14 +411,13 @@ transition: 1s }
 overflow-y: auto;
 height: 250px; }
 
-
-.col-md-3,
-.col-md-3 .panel,
-.s-chat-sidebar,
-#chatMessageContainer,
-#chatMessageList {
+#chatBar,
+#chatContainer,
+div.s-chat,
+.s-chat-wrapper,
+.s-chat-sidebar {
   background: transparent !important;
   background-image: none !important;
-  border: none !important;
   box-shadow: none !important;
+  border: none !important;
 }
