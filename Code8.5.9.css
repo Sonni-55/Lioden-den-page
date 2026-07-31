@@ -170,9 +170,12 @@ background: var(--Color5) !important;
 border-radius: 0px !important; 
 color: var(--Color4) !important; } 
 
-#sparring.right-odd {
+#sparring
+	.right-odd {
 	background: var(--Color4) !important;
-}
+	border-radius: 0px !important; 
+    color: var(--Color5) !important; }
+	
 /* FAPA, KING DYNASTY, ETC. */
  
 .feature {
@@ -263,7 +266,7 @@ color: var(--Color2) !important; }
 
 /*Comment Box base by Hok-Z #41458 / #170947*/
 #commentBox {
-background-color:#;
+background-color: #F2E9ED80;
 border: 2px solid var(--Color4) !important;
 height: 280px !important;
 margin-top: 40px;
@@ -312,7 +315,8 @@ border: none !important;
 background: var(--Color4) !important; }
 
 div#chatMessageContainer {
-border: none !important; }
+border: none !important;
+Background: none !important}
 
 .s-chat-message_timestamp {
 color: var(--Color1) !important; }
