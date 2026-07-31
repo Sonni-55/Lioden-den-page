@@ -58,6 +58,7 @@ color: var(--Color1); } }
 body {
 background: url('https://i.postimg.cc/XJZTXFnm/lioden-wardrobe-(1)-(21).png');
 background-size: cover;
+background-attachment: scroll;
 background-repeat:no-repeat;
 color: var(--Color1); } }
 
