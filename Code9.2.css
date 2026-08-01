@@ -102,6 +102,7 @@ border-radius: 10%; }
 #about > tbody > tr:nth-child(1) > td > div::before {
     content:'「˗ˏˋ★';
     font-size:17px;
+}
 
 /* TOPBAR, NAVBAR, & BREADCRUMB */
  
