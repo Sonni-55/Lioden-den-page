@@ -2,7 +2,7 @@
   width: 250px;
   height: 175px;
   padding: 10px;
-  border: 7px solid;
+  border: 7px solid transparent;
   margin: 0;
   border-radius:40%;
   background-position: 2% 35%;
@@ -12,7 +12,7 @@
   
 body:has(img[src*="icon-time-day.png"]):has(img[src*="icon-season-dry.png"]) 
   .dynamic-box {background-image: url('https://i.postimg.cc/k4g64gfP/7thlionlands-Day.png') !important;
-  border: #BF8D50;
+  border-color: #BF8D50;
 }
 body:has(img[src*="icon-time-day.png"]):has(img[src*="icon-season-dry.png"]) 
   .dynamic-box::after {content: "Day time | Dry season";
@@ -23,7 +23,7 @@ body:has(img[src*="icon-time-day.png"]):has(img[src*="icon-season-dry.png"])
 
 body:has(img[src*="icon-time-day.png"]):has(img[src*="icon-season-wet.png"]) 
   .dynamic-box {background-image: url('https://i.postimg.cc/PqrYLyqk/7thlionlands-Wet-Day.png') !important;
-  border: linear-gradient(135deg, #BF8D50, #A3A7BF);
+  border-color: linear-gradient(135deg, #BF8D50, #A3A7BF);
 }
 body:has(img[src*="icon-time-day.png"]):has(img[src*="icon-season-wet.png"]) 
   .dynamic-box::after {content: "Day time | Wet season";
@@ -34,7 +34,7 @@ body:has(img[src*="icon-time-day.png"]):has(img[src*="icon-season-wet.png"])
 
 body:has(img[src*="icon-time-night.png"]):has(img[src*="icon-season-dry.png"]) 
   .dynamic-box {background-image: url('https://i.postimg.cc/V5QkjfBf/7thlionlands-Night.png') !important;
-  border: linear-gradient(135deg, #A3A7BF, #BF8D50);
+  border-color: linear-gradient(135deg, #A3A7BF, #BF8D50);
 }
 body:has(img[src*="icon-time-night.png"]):has(img[src*="icon-season-dry.png"]) 
   .dynamic-box::after {content: "Night time | Dry season";
@@ -45,7 +45,7 @@ body:has(img[src*="icon-time-night.png"]):has(img[src*="icon-season-dry.png"])
 
 body:has(img[src*="icon-time-night.png"]):has(img[src*="icon-season-wet.png"]) 
   .dynamic-box {background-image: url('https://i.postimg.cc/WbLZmT41/7thlionlands-Wet-Night.png') !important;
-  border: #A3A7BF;
+  border-color: #A3A7BF;
 }
 body:has(img[src*="icon-time-night.png"]):has(img[src*="icon-season-wet.png"]) 
   .dynamic-box::after {content: "Night time | Wet season";
