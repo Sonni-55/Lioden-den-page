@@ -9,16 +9,6 @@
   background-position: 5% 35%;
   background-size: 150%;
   background-repeat:no-repeat;
-  background-image: url('https://i.postimg.cc/XJZTXFnm/lioden-wardrobe-(1)-(21).png');
-  position: relative;
-
-.dynamic-box::after {
-  position: absolute;
-  top: 15px;
-  left: 50%;
-  transform: translateX(-50%);
-  color: #ffffff;
-  
   
 body:has(img[src*="icon-time-day.png"]):has(img[src*="icon-season-dry.png"]) 
   .dynamic-box {background-image: url('https://i.postimg.cc/k4g64gfP/7thlionlands-Day.png') !important;
