@@ -2,7 +2,7 @@
   width: 250px;
   height: 175px;
   padding: 10px;
-  border: 10px solid #BF8D50;
+  border: 7px solid #BF8D50;
   margin: 0;
   border-radius:40%;
   background-position: 5% 35%;
@@ -15,6 +15,7 @@ body:has(img[src*="icon-time-day.png"]):has(img[src*="icon-season-dry.png"])
 }
 body:has(img[src*="icon-time-day.png"]):has(img[src*="icon-season-dry.png"]) 
   .dynamic-box::after {content: "Day | Dry season";
+  color: #HEX
 }
 
 body:has(img[src*="icon-time-day.png"]):has(img[src*="icon-season-wet.png"]) 
