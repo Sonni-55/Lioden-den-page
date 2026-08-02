@@ -5,6 +5,10 @@
   border: 10px solid #BF8D50;
   margin: 0;
   border-radius:10px;
+  background-size:cover;
+  background-position: 50% 35%;
+  background-repeat:no-repeat;
+  
   background-image:url('https://i.postimg.cc/XJZTXFnm/lioden-wardrobe-(1)-(21).png');
 }
 
