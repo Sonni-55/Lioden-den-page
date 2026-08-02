@@ -93,14 +93,14 @@ border-radius: 10%; }
 /* CUSTOM KING TITLE - AFTER */
 
 #about > tbody > tr:nth-child(1) > td > div::after {
-    content:'★ˎˊ˗」';
+    content:'★ ˎˊ˗」';
     font-size:17px;
 }
 
 /* CUSTOM KING TITLE - BEFORE */
  
 #about > tbody > tr:nth-child(1) > td > div::before {
-    content:'「˗ˏˋ★';
+    content:'「˗ ˏˋ★';
     font-size:17px;
 }
 
@@ -149,7 +149,7 @@ color: var(--Color5); }
 .breadcrumb::after{ content: '૮꒰ ˵• ﻌ•˵꒱ა  ૮꒰˶⁠❛ ˕ ❛ ˶꒱ა'; 
 color: var(--Color5);
 position:absolute;
-right:13%;
+right:20%;
 z-index:100;}
 	
 /* table body*/
