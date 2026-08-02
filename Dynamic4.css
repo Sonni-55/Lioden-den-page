@@ -7,14 +7,14 @@
   Background-color: #D9B26A;
 }
 
-Body:has(:contains("day Time"):has(:contains("dry Season")))
+body:has(:img[src:icon-time-day.png]:has(:img[src:icon-season-dry.png]))
 .dynamic-box {background-image:url('https://i.postimg.cc/k4g64gfP/7thlionlands-Day.png')}
 
-Body:has(:contains("day Time"):has(:contains("wet Season")))
+body:has(:img[src:icon-time-day.png]:has(:img[src:icon-season-wet.png]))
 .dynamic-box {background-image:url('https://i.postimg.cc/PqrYLyqk/7thlionlands-Wet-Day.png')}
 
-Body:has(:contains("night Time"):has(:contains("dry Season")))
+body:has(:img[src:icon-time-night.png]:has(:img[src:icon-season-dry.png]))
 .dynamic-box {background-image:url('https://i.postimg.cc/V5QkjfBf/7thlionlands-Night.png')}
 
-Body:has(:contains("night Time"):has(:contains("wet Season")))
+body:has(:img[src:icon-time-night.png]:has(:img[src:icon-season-wet.png]))
 .dynamic-box {background-image:url('https://i.postimg.cc/WbLZmT41/7thlionlands-Wet-Night.png')}
