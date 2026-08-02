@@ -15,7 +15,9 @@ body:has(img[src*="icon-time-day.png"]):has(img[src*="icon-season-dry.png"])
 }
 body:has(img[src*="icon-time-day.png"]):has(img[src*="icon-season-dry.png"]) 
   .dynamic-box::after {content: "Day | Dry season";
-  color: #HEX
+  color: #F2E9ED
+  display: inline-block;
+  transform: translateY(-7px);  
 }
 
 body:has(img[src*="icon-time-day.png"]):has(img[src*="icon-season-wet.png"]) 
@@ -23,6 +25,9 @@ body:has(img[src*="icon-time-day.png"]):has(img[src*="icon-season-wet.png"])
 }
 body:has(img[src*="icon-time-day.png"]):has(img[src*="icon-season-wet.png"]) 
   .dynamic-box::after {content: "Day | Wet season";
+  color: #F2E9ED
+  display: inline-block;
+  transform: translateY(-7px);
 }
 
 body:has(img[src*="icon-time-night.png"]):has(img[src*="icon-season-dry.png"]) 
@@ -30,6 +35,9 @@ body:has(img[src*="icon-time-night.png"]):has(img[src*="icon-season-dry.png"])
 }
 body:has(img[src*="icon-time-night.png"]):has(img[src*="icon-season-dry.png"]) 
   .dynamic-box::after {content: "Night | Dry season";
+  color: #F2E9ED
+  display: inline-block;
+  transform: translateY(-7px);
 }
 
 body:has(img[src*="icon-time-night.png"]):has(img[src*="icon-season-wet.png"]) 
@@ -37,4 +45,7 @@ body:has(img[src*="icon-time-night.png"]):has(img[src*="icon-season-wet.png"])
 }
 body:has(img[src*="icon-time-night.png"]):has(img[src*="icon-season-wet.png"]) 
   .dynamic-box::after {content: "Night | Wet season";
+  color: #F2E9ED
+  display: inline-block;
+  transform: translateY(-7px);
 }
