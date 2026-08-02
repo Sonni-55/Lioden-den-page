@@ -14,8 +14,8 @@ body:has(img[src*="icon-time-day.png"]):has(img[src*="icon-season-dry.png"])
   .dynamic-box {background-image: url('https://i.postimg.cc/k4g64gfP/7thlionlands-Day.png') !important;
 }
 body:has(img[src*="icon-time-day.png"]):has(img[src*="icon-season-dry.png"]) 
-  .dynamic-box::after {content: "Day | Dry season";
-  color: #F2E9ED
+  .dynamic-box::after {content: "Day time | Dry season";
+  color: #F2E9ED;
   display: inline-block;
   transform: translateY(-7px);  
 }
@@ -24,8 +24,8 @@ body:has(img[src*="icon-time-day.png"]):has(img[src*="icon-season-wet.png"])
   .dynamic-box {background-image: url('https://i.postimg.cc/PqrYLyqk/7thlionlands-Wet-Day.png') !important;
 }
 body:has(img[src*="icon-time-day.png"]):has(img[src*="icon-season-wet.png"]) 
-  .dynamic-box::after {content: "Day | Wet season";
-  color: #F2E9ED
+  .dynamic-box::after {content: "Day time | Wet season";
+  color: #F2E9ED;
   display: inline-block;
   transform: translateY(-7px);
 }
@@ -34,8 +34,8 @@ body:has(img[src*="icon-time-night.png"]):has(img[src*="icon-season-dry.png"])
   .dynamic-box {background-image: url('https://i.postimg.cc/V5QkjfBf/7thlionlands-Night.png') !important;
 }
 body:has(img[src*="icon-time-night.png"]):has(img[src*="icon-season-dry.png"]) 
-  .dynamic-box::after {content: "Night | Dry season";
-  color: #F2E9ED
+  .dynamic-box::after {content: "Night time | Dry season";
+  color: #F2E9ED;
   display: inline-block;
   transform: translateY(-7px);
 }
@@ -44,8 +44,8 @@ body:has(img[src*="icon-time-night.png"]):has(img[src*="icon-season-wet.png"])
   .dynamic-box {background-image: url('https://i.postimg.cc/WbLZmT41/7thlionlands-Wet-Night.png') !important;
 }
 body:has(img[src*="icon-time-night.png"]):has(img[src*="icon-season-wet.png"]) 
-  .dynamic-box::after {content: "Night | Wet season";
-  color: #F2E9ED
+  .dynamic-box::after {content: "Night time | Wet season";
+  color: #F2E9ED;
   display: inline-block;
   transform: translateY(-7px);
 }
