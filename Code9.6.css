@@ -429,14 +429,14 @@ height: 250px; }
 .main {
   border: 3px solid var(--Color5);
   background-color: var(--Color4);
-  height: 400px;
-  width: 400px;
+  height: 100px;
+  width: 150px;
 }
 
 .container {
   margin: 5px;
-  width: 350px;
-  height: 100px;
+  width: 75px;
+  height: 125px;
   border: 2px solid var(--Color5);
   white-space: nowrap;
 }
@@ -444,7 +444,7 @@ height: 250px; }
 .item {
   border: 2px solid var(--Color5);
   background-color: var(--Color5);
-  width: 120px;
+  width: 75px;
 }
 
 /* Inline-block */
@@ -455,6 +455,6 @@ height: 250px; }
 .inline-item {
   display: inline-block;
   vertical-align: middle;
-  height: 96px;
+  height: 50px;
   margin-right: -4px;
 }
