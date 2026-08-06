@@ -426,12 +426,6 @@ height: 250px; }
 	
 
 /* General */
-.main {
-  border: 3px solid var(--Color5);
-  background-color: var(--Color4);
-  height: 100px;
-  width: 150px;
-}
 
 .container {
   margin: 5px;
