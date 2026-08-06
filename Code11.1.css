@@ -468,5 +468,6 @@ height: 250px; }
   color: var(--Color1);
   font-size: 13px;
   text-align: center;
+  line-height:1.3;
   box-sizing: border-box;
 }
