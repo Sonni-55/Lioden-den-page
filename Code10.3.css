@@ -426,15 +426,15 @@ height: 250px; }
 
 /* Horizontal scroll*/
 .H-scroll-main {
-  border: 3px solid #236AB9;
-  background-color: #D4E4F7;
+  border: 3px solid var(--Color5);
+  background-color: var(--Color4);
   padding: 5px;
   width: 100%;
   box-sizing: border-box;
 }
 
 .H-scroll-container {
-  border: 2px solid #341C09;
+  border: 2px solid var(--Color4);
   
   /* Flexbox */
   display: flex;
@@ -448,11 +448,28 @@ height: 250px; }
   box-sizing: border-box;
 }
 
-/* Cards */
-.king {
-  border: 2px solid #B85B14;
-  background-color: #FC7307;
-  flex: 0 0 auto; 
-  width: 120px;
-  height: 100px;
+.king-card {
+  flex: 0 0 auto;
+  width: 200px; 
+  background-color: var(--Color5);
+  border: 2px solid var(--Color4);
+  border-radius: 5px;
+  overflow: hidden;
+  
+  display: flex;
+  flex-direction: column;
+}
+
+.king-card img {
+  width: 100%;
+  aspect-ratio: 640 / 500; 
+  object-fit: cover
+  display: block;
+}
+
+.king-card .card-text {
+  padding: 8px;
+  color: var(--Color1);
+  font-size: 14px;
+  text-align: center;
 }
