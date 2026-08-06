@@ -428,6 +428,7 @@ height: 250px; }
 
 .H-scroll-container {
   border: 2px solid var(--Color4);
+  background-color: var(--Color4);
   
   /* Flexbox */
   display: flex;
@@ -443,7 +444,7 @@ height: 250px; }
 
 .king-card {
   flex: 0 0 auto;
-  height: 150px; 
+  height: 200px; 
   background-color: var(--Color5);
   border: 2px solid var(--Color4);
   border-radius: 5px;
@@ -454,7 +455,7 @@ height: 250px; }
 }
 
 .king-card img {
-  width: 100%;
+  width: 50%;
   aspect-ratio: 640 / 500; 
   object-fit: cover
   display: block;
