@@ -428,11 +428,11 @@ height: 250px; }
 
 .H-scroll-container {
 
-  width: 90%;
-  max-width: 200px;
-  overflow-x: auto;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto!important;
   overflow-y: hidden;
-  white-space: nowrap;
+  white-space: nowrap!important;
   padding: 10px 0;
 }
 
@@ -441,7 +441,7 @@ height: 250px; }
 /* King card*/
 
 .king-card {
-  display: inline-block;
+  display: inline-block!important;
   width: 150px; 
   vertical-align: top;
   margin-right: 15px;
@@ -470,7 +470,4 @@ height: 250px; }
   font-size: 14px;
   margin: 6px 0 2px 0;
   color: var(--Color5);
-}
-e: nowrap;
-  padding: 10px 0;
 }
