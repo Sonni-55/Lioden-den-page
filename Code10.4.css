@@ -425,13 +425,6 @@ overflow-y: auto;
 height: 250px; }
 
 /* Horizontal scroll*/
-.H-scroll-main {
-  border: 3px solid var(--Color5);
-  background-color: var(--Color4);
-  padding: 5px;
-  width: 100%;
-  box-sizing: border-box;
-}
 
 .H-scroll-container {
   border: 2px solid var(--Color4);
@@ -450,7 +443,7 @@ height: 250px; }
 
 .king-card {
   flex: 0 0 auto;
-  width: 200px; 
+  height: 150px; 
   background-color: var(--Color5);
   border: 2px solid var(--Color4);
   border-radius: 5px;
