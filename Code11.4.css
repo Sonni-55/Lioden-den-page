@@ -444,7 +444,7 @@ height: 250px; }
 
 .king-card {
   flex: 0 0 auto;
-  width: 300px; 
+  width: 250px; 
   height:200px;
   background-color: var(--Color5);
   border: 1px solid var(--Color5);
