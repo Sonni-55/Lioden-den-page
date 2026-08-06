@@ -438,13 +438,13 @@ height: 250px; }
   
   gap: 5px;  
   padding: 5px;
-  width: 75%;
+  width: 100%;
   box-sizing: border-box;
 }
 
 .king-card {
   flex: 0 0 auto;
-  width: 75%; 
+  width: 80%; 
   background-color: var(--Color5);
   border: 2px solid var(--Color5);
   border-radius: 10px;
@@ -455,7 +455,7 @@ height: 250px; }
 }
 
 .king-card img {
-  width: 100%;
+  width: 97%;
   aspect-ratio: 640 / 500; 
   object-fit: cover
   display: block;
