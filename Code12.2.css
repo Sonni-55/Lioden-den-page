@@ -429,6 +429,7 @@ height: 250px; }
 .H-scrolling-box {
   display:flex;
   flex-wrap: nowrap;
+  align-items: center;
   width:100%;
   height:225px;
   overflow-x: auto!important;
@@ -439,10 +440,10 @@ height: 250px; }
     flex: 0 0 auto!important;
 	height:210px;
 	width:300px;
-    marking-right:2px;
+    margin-right:2px;
   }
-.king-card-img{
-borfer: 2px solid (var--Color4);
+.king-card img{
+border: 2px solid (var--Color4);
 width:97%;
 height:200px;
 	
