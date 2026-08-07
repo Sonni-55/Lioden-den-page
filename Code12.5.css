@@ -427,7 +427,6 @@ height: 250px; }
 /* Horizontal scroll*/
 
 .H-scrolling-box-main {
-  border: 3px solid var(--Color5);
   background-color: var(--Color4);
   height: 225px;
   width: 100%;
@@ -447,7 +446,8 @@ height: 250px; }
     flex: 0 0 auto!important;
 	height:210px;
 	width:300px;
-    margin-right:2px;
+    margin-right:1px;
+	border: 2px solid var(--Color5);
 
 	display: flex;
     flex-direction: column;
@@ -455,15 +455,15 @@ height: 250px; }
     justify-content: center;
 } 
 .king-card img{
-border: 2px solid var(--Color1);
 width:97%;
-height:160px;
+height:174px;
 object-fit: contain!important;
 }
 .king-card .card-text {
-color: var(--Color1);
+color: var(--Color5);
 font-size: 13px;
 width: 100%;
 text-align: center;
+display: block;
 }
 }
