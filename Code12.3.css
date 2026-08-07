@@ -426,6 +426,13 @@ height: 250px; }
 
 /* Horizontal scroll*/
 
+.H-scrolling-box-main {
+  border: 3px solid var(--Color5);
+  background-color: var(--Color4);
+  height: 225px;
+  width: 100%;
+}
+
 .H-scrolling-box {
   display:flex;
   flex-wrap: nowrap;
@@ -446,5 +453,10 @@ height: 250px; }
 border: 2px solid (var--Color4);
 width:97%;
 height:200px;
-	
+object-fit: contain!important;
 }
+.king-card .card-text {
+color: var(--Color1);
+font-size: 13px;
+text-align: center;
+} 
